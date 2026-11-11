@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800">
+  <defs>
+    <g id="mc">
+      <path d="M65 -13Q65 0 65 13Q65 27 57 38Q49 49 37 55Q25 61 13 65Q0 68 -13 65Q-26 62 -37 56Q-49 49 -57 38Q-65 27 -65 13Q-65 0 -62 -12Q-60 -25 -55 -37Q-50 -50 -38 -56Q-26 -62 -13 -66Q-0 -70 12 -65Q25 -60 36 -54Q48 -48 56 -37Q64 -27 65 -13z" fill="#D9963A" stroke="#3B3A30" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M51 -11Q55 0 52 12Q49 24 40 31Q31 39 21 43Q11 48 -1 50Q-12 53 -23 47Q-33 42 -41 32Q-48 23 -49 12Q-51 0 -49 -11Q-47 -23 -40 -32Q-33 -41 -22 -46Q-12 -51 -0 -50Q11 -49 22 -45Q32 -40 39 -31Q46 -22 51 -11z" fill="#EDB453"/>
+      <g fill="#C07A2A"><circle cx="-38" cy="20" r="6"/><circle cx="30" cy="-36" r="5"/><circle cx="40" cy="26" r="4"/></g>
+      <g fill="none" stroke-linecap="round" stroke-width="5">
+        <path d="M-26 -18q8-6 16 0" stroke="#5E8F36"/><path d="M8 -26q8 4 14 -2" stroke="#7FAE4A"/><path d="M-30 6q6 6 14 4" stroke="#7FAE4A"/>
+        <path d="M4 2q8-6 16-2" stroke="#5E8F36"/><path d="M-10 24q8 4 14-2" stroke="#5E8F36"/><path d="M22 18q6 6 12 2" stroke="#7FAE4A"/>
+        <path d="M-6 -6q4 6 10 4" stroke="#7FAE4A"/>
+      </g>
+      <g fill="#FFFDF6"><circle cx="-14" cy="-30" r="3.500"/><circle cx="26" cy="-6" r="3.500"/><circle cx="-20" cy="34" r="3"/><circle cx="12" cy="36" r="3"/></g>
+    </g>
+  </defs>
+  <rect width="800" height="800" fill="#F2DCD8"/>
+  <!-- masa deseni -->
+  <g fill="#E6C4BF">
+    <circle cx="90" cy="110" r="10"/><circle cx="706" cy="92" r="10"/><circle cx="730" cy="646" r="10"/>
+    <circle cx="76" cy="686" r="10"/><circle cx="400" cy="56" r="10"/><circle cx="54" cy="400" r="10"/><circle cx="748" cy="374" r="10"/>
+  </g>
+  <!-- tabak -->
+  <ellipse cx="400" cy="392" rx="292" ry="292" fill="#00000014" transform="translate(0 14)"/>
+  <circle cx="400" cy="380" r="290" fill="#FFFDF6"/>
+  <circle cx="400" cy="380" r="290" fill="none" stroke="#3B3A30" stroke-width="7"/>
+  <circle cx="400" cy="380" r="244" fill="#F3EEDD"/>
+  <!-- mücverler -->
+  <use xlink:href="#mc" transform="translate(431 203) rotate(0)"/>
+  <use xlink:href="#mc" transform="translate(558 294) rotate(53)"/>
+  <use xlink:href="#mc" transform="translate(566 450) rotate(106)"/>
+  <use xlink:href="#mc" transform="translate(449 553) rotate(159)"/>
+  <use xlink:href="#mc" transform="translate(295 526) rotate(212)"/>
+  <use xlink:href="#mc" transform="translate(220 389) rotate(265)"/>
+  <use xlink:href="#mc" transform="translate(281 245) rotate(318)"/>
+  <!-- yoğurt kâsesi -->
+  <circle cx="400" cy="386" r="92" fill="#00000014"/>
+  <circle cx="400" cy="380" r="90" fill="#8FB39A" stroke="#3B3A30" stroke-width="6"/>
+  <circle cx="400" cy="380" r="70" fill="#FFFDF8" stroke="#3B3A30" stroke-width="5"/>
+  <path d="M362 372c8-24 52-30 66-6s-10 44-34 38-22-30-2-30" fill="none" stroke="#E4DFCF" stroke-width="6" stroke-linecap="round"/>
+  <g fill="#5E8F36">
+    <rect x="380" y="352" width="10" height="4" rx="2" transform="rotate(30 385 354)"/><rect x="420" y="392" width="10" height="4" rx="2" transform="rotate(-20 425 394)"/>
+    <rect x="372" y="398" width="10" height="4" rx="2" transform="rotate(60 377 400)"/><rect x="414" y="350" width="10" height="4" rx="2" transform="rotate(-50 419 352)"/>
+    <rect x="398" y="380" width="10" height="4" rx="2"/>
+  </g>
+  <path d="M344 336a70 70 0 0 1 28-22" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" opacity=".9"/>
+  <!-- parlama -->
+  <path d="M149 289a267 267 0 0 1 98-128" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" opacity=".9"/>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#D7E0E5"/>
+  <!-- masa deseni -->
+  <g fill="none" stroke="#C3CFD6" stroke-width="8" stroke-linecap="round">
+    <path d="M84 96l20 20M694 92l20 20M60 690l20 20M712 680l20 20M390 64l20 20M380 700l20 20M50 250l20 20M730 250l20 20"/>
+  </g>
+  <defs>
+    <g id="p" stroke-linejoin="round">
+      <ellipse rx="74" ry="46" fill="#4F2E5E" stroke="#3B3A30" stroke-width="6"/>
+      <ellipse cx="2" cy="-2" rx="62" ry="35" fill="#DDA95B"/>
+      <path d="M-34-8c20-8 48-8 68 0M-30 12c20 6 42 6 60 0" fill="none" stroke="#C48C40" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <g id="d" stroke-linejoin="round">
+      <circle r="31" fill="#D8452E" stroke="#3B3A30" stroke-width="5"/>
+      <circle r="20" fill="#F07A5E"/>
+      <g fill="#F6D36B"><circle cx="-8" cy="-6" r="3.5"/><circle cx="8" cy="-6" r="3.5"/><circle cx="0" cy="9" r="3.5"/></g>
+      <path d="M0 0L0-20M0 0L17 10M0 0L-17 10" stroke="#D8452E" stroke-width="3"/>
+    </g>
+    <g id="b" fill="none">
+      <circle r="17" stroke="#3B3A30" stroke-width="16"/>
+      <circle r="17" stroke="#6FA046" stroke-width="6"/>
+    </g>
+  </defs>
+  <!-- gölge -->
+  <g fill="#00000014" transform="translate(0 14)">
+    <rect x="90" y="328" width="620" height="104" rx="22"/><rect x="118" y="158" width="564" height="444" rx="50"/>
+  </g>
+  <!-- fırın kabı -->
+  <g fill="#F7F0E0" stroke="#3B3A30" stroke-width="6">
+    <rect x="92" y="330" width="80" height="100" rx="20"/><rect x="628" y="330" width="80" height="100" rx="20"/>
+  </g>
+  <rect x="120" y="160" width="560" height="440" rx="48" fill="#F7F0E0" stroke="#3B3A30" stroke-width="7"/>
+  <rect x="150" y="190" width="500" height="380" rx="30" fill="#E6D8BC" stroke="#3B3A30" stroke-width="5"/>
+  <!-- kıymalı sos -->
+  <rect x="162" y="202" width="476" height="356" rx="24" fill="#B5462B"/>
+  <g fill="#7A3A22">
+    <circle cx="190" cy="230" r="6"/><circle cx="320" cy="215" r="5"/><circle cx="480" cy="222" r="6"/><circle cx="610" cy="236" r="5"/>
+    <circle cx="186" cy="380" r="6"/><circle cx="320" cy="378" r="5"/><circle cx="478" cy="372" r="6"/><circle cx="614" cy="382" r="5"/>
+    <circle cx="200" cy="534" r="5"/><circle cx="330" cy="540" r="6"/><circle cx="470" cy="538" r="5"/><circle cx="600" cy="530" r="6"/>
+    <circle cx="398" cy="372" r="6"/><circle cx="252" cy="374" r="5"/><circle cx="550" cy="376" r="5"/><circle cx="420" cy="214" r="5"/>
+  </g>
+  <!-- patlıcanlar -->
+  <use xlink:href="#p" transform="translate(245 292) rotate(-8) scale(1.1)"/>
+  <use xlink:href="#p" transform="translate(400 288) rotate(6) scale(1.1)"/>
+  <use xlink:href="#p" transform="translate(555 294) rotate(-5) scale(1.1)"/>
+  <use xlink:href="#p" transform="translate(245 462) rotate(6) scale(1.1)"/>
+  <use xlink:href="#p" transform="translate(400 468) rotate(-7) scale(1.1)"/>
+  <use xlink:href="#p" transform="translate(555 462) rotate(8) scale(1.1)"/>
+  <!-- kıyma serpintisi -->
+  <g fill="#8A4128" stroke="#3B3A30" stroke-width="3">
+    <circle cx="200" cy="300" r="7"/><circle cx="290" cy="270" r="6"/><circle cx="360" cy="310" r="7"/><circle cx="452" cy="266" r="6"/>
+    <circle cx="508" cy="310" r="7"/><circle cx="600" cy="282" r="6"/><circle cx="210" cy="470" r="6"/><circle cx="296" cy="446" r="7"/>
+    <circle cx="352" cy="484" r="6"/><circle cx="452" cy="452" r="7"/><circle cx="512" cy="478" r="6"/><circle cx="598" cy="448" r="7"/>
+  </g>
+  <!-- domates ve biber -->
+  <use xlink:href="#d" transform="translate(258 288)"/>
+  <use xlink:href="#d" transform="translate(412 292) rotate(40)"/>
+  <use xlink:href="#d" transform="translate(568 290) rotate(80)"/>
+  <use xlink:href="#d" transform="translate(232 462) rotate(20)"/>
+  <use xlink:href="#d" transform="translate(388 468) rotate(60)"/>
+  <use xlink:href="#d" transform="translate(542 458) rotate(100)"/>
+  <use xlink:href="#b" transform="translate(212 300)"/>
+  <use xlink:href="#b" transform="translate(456 298)"/>
+  <use xlink:href="#b" transform="translate(526 302)"/>
+  <use xlink:href="#b" transform="translate(280 466)"/>
+  <use xlink:href="#b" transform="translate(432 472)"/>
+  <use xlink:href="#b" transform="translate(590 466)"/>
+  <!-- parlama -->
+  <path d="M135 330V210a35 35 0 0 1 35-35h90" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" opacity=".9"/>
+</svg>

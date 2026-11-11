@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#F6E6C8"/>
+  <!-- masa deseni -->
+  <g fill="#EAD5AE">
+    <circle cx="92" cy="104" r="10"/><circle cx="708" cy="100" r="10"/><circle cx="742" cy="420" r="10"/><circle cx="58" cy="430" r="10"/>
+    <circle cx="96" cy="720" r="10"/><circle cx="704" cy="716" r="10"/><circle cx="400" cy="52" r="10"/>
+  </g>
+  <defs>
+    <g id="n">
+      <path d="M0-21c12 0 21 9 21 21S12 21 0 21-21 12-21 0c0-8 4-14 10-18l4-6 4 3z" fill="#EDCD8C" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M-2-13c8 5 9 14 4 20" fill="none" stroke="#C99F58" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="-9" cy="-4" r="4" fill="#FBEBC4"/>
+    </g>
+  </defs>
+  <!-- kâse -->
+  <circle cx="400" cy="394" r="272" fill="#00000014"/>
+  <circle cx="400" cy="380" r="270" fill="#79A9C2" stroke="#3B3A30" stroke-width="7"/>
+  <g fill="#FFFDF6">
+    <circle cx="655" cy="380" r="6"/><circle cx="621" cy="508" r="6"/><circle cx="528" cy="601" r="6"/><circle cx="400" cy="635" r="6"/>
+    <circle cx="272" cy="601" r="6"/><circle cx="179" cy="508" r="6"/><circle cx="145" cy="380" r="6"/><circle cx="179" cy="253" r="6"/>
+    <circle cx="272" cy="159" r="6"/><circle cx="400" cy="125" r="6"/><circle cx="528" cy="159" r="6"/><circle cx="621" cy="253" r="6"/>
+  </g>
+  <circle cx="400" cy="380" r="240" fill="#FFFDF6" stroke="#3B3A30" stroke-width="5"/>
+  <!-- salçalı su -->
+  <circle cx="400" cy="380" r="212" fill="#D9622F"/>
+  <path d="M400 196c98 0 180 80 178 184s-82 182-180 182-180-80-178-184 82-182 180-182z" fill="#E7783D"/>
+  <g fill="#F4A25A">
+    <ellipse cx="320" cy="282" rx="14" ry="8"/><ellipse cx="510" cy="280" rx="10" ry="6"/><ellipse cx="560" cy="380" rx="12" ry="7"/>
+    <ellipse cx="410" cy="510" rx="14" ry="8"/><ellipse cx="250" cy="520" rx="10" ry="6"/><ellipse cx="360" cy="390" rx="9" ry="5"/>
+  </g>
+  <!-- nohutlar -->
+  <use xlink:href="#n" transform="translate(277 418) rotate(210)"/><use xlink:href="#n" transform="translate(457 523) rotate(210)"/>
+  <use xlink:href="#n" transform="translate(295 268) rotate(30)"/><use xlink:href="#n" transform="translate(339 401) rotate(240)"/>
+  <use xlink:href="#n" transform="translate(452 247) rotate(0)"/><use xlink:href="#n" transform="translate(311 319) rotate(210)"/>
+  <use xlink:href="#n" transform="translate(412 398) rotate(240)"/><use xlink:href="#n" transform="translate(497 289) rotate(210)"/>
+  <use xlink:href="#n" transform="translate(339 497) rotate(90)"/><use xlink:href="#n" transform="translate(263 364) rotate(210)"/>
+  <use xlink:href="#n" transform="translate(475 423) rotate(90)"/><use xlink:href="#n" transform="translate(348 358) rotate(30)"/>
+  <use xlink:href="#n" transform="translate(553 339) rotate(0)"/><use xlink:href="#n" transform="translate(372 272) rotate(270)"/>
+  <use xlink:href="#n" transform="translate(403 321) rotate(90)"/><use xlink:href="#n" transform="translate(319 452) rotate(90)"/>
+  <use xlink:href="#n" transform="translate(560 380) rotate(270)"/><use xlink:href="#n" transform="translate(426 485) rotate(270)"/>
+  <use xlink:href="#n" transform="translate(479 375) rotate(120)"/><use xlink:href="#n" transform="translate(492 474) rotate(270)"/>
+  <use xlink:href="#n" transform="translate(256 458) rotate(210)"/><use xlink:href="#n" transform="translate(381 449) rotate(330)"/>
+  <use xlink:href="#n" transform="translate(519 403) rotate(0)"/><use xlink:href="#n" transform="translate(360 217) rotate(120)"/>
+  <use xlink:href="#n" transform="translate(443 300) rotate(270)"/><use xlink:href="#n" transform="translate(542 467) rotate(330)"/>
+  <use xlink:href="#n" transform="translate(374 543) rotate(90)"/><use xlink:href="#n" transform="translate(386 497) rotate(60)"/>
+  <use xlink:href="#n" transform="translate(287 500) rotate(270)"/><use xlink:href="#n" transform="translate(413 210) rotate(0)"/>
+  <use xlink:href="#n" transform="translate(433 353) rotate(30)"/><use xlink:href="#n" transform="translate(256 309) rotate(60)"/>
+  <use xlink:href="#n" transform="translate(540 296) rotate(30)"/><use xlink:href="#n" transform="translate(305 376) rotate(150)"/>
+  <use xlink:href="#n" transform="translate(510 333) rotate(330)"/><use xlink:href="#n" transform="translate(236 408) rotate(210)"/>
+  <use xlink:href="#n" transform="translate(416 537) rotate(300)"/><use xlink:href="#n" transform="translate(494 241) rotate(300)"/>
+  <use xlink:href="#n" transform="translate(430 439) rotate(120)"/><use xlink:href="#n" transform="translate(359 314) rotate(180)"/>
+  <use xlink:href="#n" transform="translate(334 251) rotate(180)"/><use xlink:href="#n" transform="translate(565 428) rotate(30)"/>
+  <use xlink:href="#n" transform="translate(505 515) rotate(270)"/><use xlink:href="#n" transform="translate(414 269) rotate(180)"/>
+  <!-- soğan ve maydanoz -->
+  <g fill="none" stroke="#FFF3DA" stroke-width="6" stroke-linecap="round">
+    <path d="M330 300a20 20 0 0 1 26 6"/><path d="M500 280a20 20 0 0 1 10 24"/><path d="M270 520a20 20 0 0 0 24 6"/><path d="M590 380a20 20 0 0 1-4 24"/>
+  </g>
+  <g fill="#4E8A3A">
+    <circle cx="340" cy="250" r="5"/><circle cx="470" cy="300" r="5"/><circle cx="300" cy="410" r="5"/><circle cx="440" cy="500" r="5"/>
+    <circle cx="520" cy="372" r="4"/><circle cx="260" cy="340" r="4"/><circle cx="400" cy="460" r="4"/><circle cx="560" cy="290" r="4"/>
+  </g>
+  <!-- parlama -->
+  <path d="M152 300a258 258 0 0 1 64-104" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" opacity=".7"/>
+</svg>

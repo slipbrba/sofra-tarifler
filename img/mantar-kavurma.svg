@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#F0DCA0"/>
+  <!-- masa deseni -->
+  <g fill="#E3CB85">
+    <circle cx="90" cy="120" r="10"/><circle cx="420" cy="58" r="10"/><circle cx="745" cy="420" r="10"/>
+    <circle cx="70" cy="420" r="10"/><circle cx="120" cy="700" r="10"/><circle cx="700" cy="720" r="10"/><circle cx="430" cy="745" r="10"/>
+  </g>
+  <defs>
+    <g id="m">
+      <path d="M-34 4C-34-24-18-38 0-38S34-24 34 4c0 7-6 9-12 7l-9-2 2 21c0 7-30 7-30 0l2-21-9 2c-6 2-12 0-12-7z" fill="#D2A570" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M-26 1C-26-18-14-29 0-29S26-18 26 1" fill="none" stroke="#8A5A33" stroke-width="7" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <!-- gölge -->
+  <g fill="#00000014" transform="translate(0 14)">
+    <circle cx="390" cy="390" r="247"/>
+    <rect x="620" y="366" width="160" height="48" rx="24" transform="rotate(-45 390 390)"/>
+  </g>
+  <!-- tava sapı -->
+  <g transform="rotate(-45 390 390)" stroke="#3B3A30" stroke-width="6" stroke-linejoin="round">
+    <rect x="618" y="374" width="56" height="32" rx="8" fill="#77736B"/>
+    <rect x="662" y="366" width="118" height="48" rx="24" fill="#A86B3F"/>
+    <circle cx="752" cy="390" r="8" fill="#F0DCA0"/>
+  </g>
+  <!-- tava -->
+  <circle cx="390" cy="390" r="245" fill="#77736B" stroke="#3B3A30" stroke-width="7"/>
+  <circle cx="390" cy="390" r="208" fill="#5E5A53" stroke="#3B3A30" stroke-width="5"/>
+  <!-- kavurma suyu -->
+  <path d="M390 200c96 0 176 70 180 172s-70 196-178 196-186-80-182-190 84-178 180-178z" fill="#7A5434"/>
+  <!-- mantarlar -->
+  <use xlink:href="#m" transform="translate(390 255) rotate(-6) scale(1.15)"/>
+  <use xlink:href="#m" transform="translate(477 287) rotate(30) scale(1.15)"/>
+  <use xlink:href="#m" transform="translate(523 367) rotate(70) scale(1.15)"/>
+  <use xlink:href="#m" transform="translate(507 458) rotate(118) scale(1.15)"/>
+  <use xlink:href="#m" transform="translate(436 517) rotate(160) scale(1.15)"/>
+  <use xlink:href="#m" transform="translate(344 517) rotate(200) scale(1.15)"/>
+  <use xlink:href="#m" transform="translate(273 458) rotate(236) scale(1.15)"/>
+  <use xlink:href="#m" transform="translate(257 367) rotate(-82) scale(1.15)"/>
+  <use xlink:href="#m" transform="translate(303 287) rotate(-40) scale(1.15)"/>
+  <!-- biberler -->
+  <g stroke="#3B3A30" stroke-width="5">
+    <rect x="432" y="211" width="40" height="16" rx="8" fill="#6FA046" transform="rotate(20 452 219)"/>
+    <rect x="528" y="291" width="40" height="16" rx="8" fill="#D8452E" transform="rotate(60 548 299)"/>
+    <rect x="549" y="414" width="40" height="16" rx="8" fill="#6FA046" transform="rotate(100 569 422)"/>
+    <rect x="487" y="521" width="40" height="16" rx="8" fill="#D8452E" transform="rotate(140 507 529)"/>
+    <rect x="370" y="564" width="40" height="16" rx="8" fill="#6FA046" transform="rotate(0 390 572)"/>
+    <rect x="253" y="521" width="40" height="16" rx="8" fill="#D8452E" transform="rotate(40 273 529)"/>
+    <rect x="191" y="414" width="40" height="16" rx="8" fill="#6FA046" transform="rotate(80 211 422)"/>
+    <rect x="212" y="291" width="40" height="16" rx="8" fill="#D8452E" transform="rotate(120 232 299)"/>
+    <rect x="308" y="211" width="40" height="16" rx="8" fill="#6FA046" transform="rotate(160 328 219)"/>
+  </g>
+  <!-- sarımsaklı yoğurt -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M232 322C270 300 292 350 330 352M450 430C478 446 500 492 548 470M404 322c12-40 50-30 62-62" stroke="#3B3A30" stroke-width="24"/>
+    <path d="M232 322C270 300 292 350 330 352M450 430C478 446 500 492 548 470M404 322c12-40 50-30 62-62" stroke="#FFFDF6" stroke-width="14"/>
+  </g>
+  <path d="M326 366c4-32 44-46 68-30 24-18 62-4 64 26 26 14 22 54-4 64-2 28-40 40-62 24-24 16-60 4-64-22-26-10-28-48-2-62z" fill="#FFFDF6" stroke="#3B3A30" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M362 380c14-12 34-12 46 2" fill="none" stroke="#E7E1D0" stroke-width="7" stroke-linecap="round"/>
+  <!-- toz biber -->
+  <g fill="#C8361F">
+    <circle cx="360" cy="360" r="5"/><circle cx="392" cy="352" r="4"/><circle cx="424" cy="362" r="5"/><circle cx="440" cy="392" r="4"/>
+    <circle cx="350" cy="400" r="4"/><circle cx="378" cy="412" r="5"/><circle cx="410" cy="420" r="4"/><circle cx="436" cy="426" r="5"/>
+    <circle cx="398" cy="388" r="4"/><circle cx="366" cy="432" r="4"/><circle cx="252" cy="314" r="4"/><circle cx="286" cy="330" r="4"/>
+    <circle cx="312" cy="350" r="4"/><circle cx="476" cy="452" r="4"/><circle cx="506" cy="478" r="4"/><circle cx="532" cy="474" r="4"/>
+    <circle cx="420" cy="300" r="4"/><circle cx="448" cy="276" r="4"/>
+  </g>
+  <!-- parlama -->
+  <path d="M177 312a227 227 0 0 1 100-119" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" opacity=".8"/>
+</svg>

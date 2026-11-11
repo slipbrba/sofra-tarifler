@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#DEE0BA"/>
+  <!-- masa deseni -->
+  <g fill="none" stroke="#CDD0A2" stroke-width="8" stroke-linecap="round">
+    <path d="M80 110l24 0M690 96l24 0M720 650l24 0M70 680l24 0M388 60l24 0M56 420l24 0M730 330l24 0M380 748l24 0"/>
+  </g>
+  <defs>
+    <g id="t" stroke-linejoin="round">
+      <path d="M-30-20L16-30 34-6 28 24-20 30-36 6z" fill="#D9A15A" stroke="#3B3A30" stroke-width="5"/>
+      <path d="M-24-15L13-23 26-6 20 12-16 17-27 3z" fill="#F3D9A6"/>
+      <path d="M-14-6l20-4M-10 6l18-3" fill="none" stroke="#E3BC80" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <g id="d" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <path d="M-30 10a30 30 0 0 1 60 0z" fill="#E8503C"/>
+      <path d="M-18 6a18 18 0 0 1 36 0z" fill="#F7907A" stroke="none"/>
+      <circle cx="-8" cy="0" r="3" fill="#F6D36B" stroke="none"/><circle cx="8" cy="0" r="3" fill="#F6D36B" stroke="none"/><circle cx="0" cy="-8" r="3" fill="#F6D36B" stroke="none"/>
+    </g>
+  </defs>
+  <!-- gölge -->
+  <g fill="#00000014" transform="translate(0 14)">
+    <circle cx="400" cy="380" r="247"/><ellipse cx="145" cy="380" rx="44" ry="32"/><ellipse cx="655" cy="380" rx="44" ry="32"/>
+  </g>
+  <!-- bakır sahan -->
+  <g stroke="#3B3A30" stroke-width="6">
+    <ellipse cx="145" cy="380" rx="44" ry="30" fill="#D98B52"/>
+    <ellipse cx="655" cy="380" rx="44" ry="30" fill="#D98B52"/>
+  </g>
+  <circle cx="400" cy="380" r="245" fill="#D98B52" stroke="#3B3A30" stroke-width="7"/>
+  <g fill="#3B3A30"><circle cx="138" cy="380" r="6"/><circle cx="662" cy="380" r="6"/></g>
+  <circle cx="400" cy="380" r="210" fill="#B9693A" stroke="#3B3A30" stroke-width="5"/>
+  <!-- salçalı sos -->
+  <path d="M400 190c104 0 186 82 184 190s-84 188-188 186-186-84-182-192 82-184 186-184z" fill="#B83D26"/>
+  <path d="M400 222c86 0 154 68 152 158s-70 156-156 154-154-70-150-160 68-152 154-152z" fill="#C9502F"/>
+  <!-- tavuk -->
+  <use xlink:href="#t" transform="translate(330 292) rotate(-12)"/>
+  <use xlink:href="#t" transform="translate(452 282) rotate(15)"/>
+  <use xlink:href="#t" transform="translate(528 368) rotate(-20)"/>
+  <use xlink:href="#t" transform="translate(296 395) rotate(8)"/>
+  <use xlink:href="#t" transform="translate(416 386) rotate(-5)"/>
+  <use xlink:href="#t" transform="translate(495 470) rotate(22)"/>
+  <use xlink:href="#t" transform="translate(366 480) rotate(-18)"/>
+  <use xlink:href="#t" transform="translate(262 312) rotate(30)"/>
+  <!-- domates -->
+  <use xlink:href="#d" transform="translate(372 226)"/>
+  <use xlink:href="#d" transform="translate(470 394) rotate(30)"/>
+  <use xlink:href="#d" transform="translate(410 548) rotate(180)"/>
+  <use xlink:href="#d" transform="translate(262 470) rotate(-40)"/>
+  <!-- biberler -->
+  <g stroke="#3B3A30" stroke-width="5">
+    <g fill="#6FA046">
+      <rect x="512" y="222" width="56" height="20" rx="10" transform="rotate(50 540 232)"/>
+      <rect x="352" y="320" width="56" height="20" rx="10" transform="rotate(-40 380 330)"/>
+      <rect x="202" y="390" width="56" height="20" rx="10" transform="rotate(80 230 400)"/>
+      <rect x="312" y="535" width="56" height="20" rx="10" transform="rotate(-30 340 545)"/>
+      <rect x="440" y="526" width="56" height="20" rx="10" transform="rotate(30 468 536)"/>
+    </g>
+    <g fill="#F2603F">
+      <rect x="417" y="325" width="56" height="20" rx="10" transform="rotate(30 445 335)"/>
+      <rect x="522" y="435" width="56" height="20" rx="10" transform="rotate(-50 550 445)"/>
+      <rect x="332" y="420" width="56" height="20" rx="10" transform="rotate(-10 360 430)"/>
+      <rect x="566" y="300" width="40" height="20" rx="10" transform="rotate(80 586 310)"/>
+    </g>
+  </g>
+  <!-- maydanoz -->
+  <g fill="#4E8A3A">
+    <circle cx="436" cy="440" r="6"/><circle cx="318" cy="352" r="5"/><circle cx="500" cy="320" r="6"/><circle cx="420" cy="252" r="5"/>
+    <circle cx="300" cy="460" r="5"/><circle cx="545" cy="400" r="5"/><circle cx="398" cy="500" r="6"/><circle cx="240" cy="360" r="5"/>
+  </g>
+  <!-- parlama -->
+  <path d="M186 302a228 228 0 0 1 100-119" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" opacity=".8"/>
+</svg>

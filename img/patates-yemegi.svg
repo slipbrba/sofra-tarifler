@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#D9E4D2"/>
+  <!-- masa deseni -->
+  <g fill="none" stroke="#C6D5BC" stroke-width="7" stroke-linecap="round">
+    <path d="M85 100l18 18M103 100l-18 18"/><path d="M690 80l18 18M708 80l-18 18"/><path d="M720 650l18 18M738 650l-18 18"/>
+    <path d="M70 680l18 18M88 680l-18 18"/><path d="M392 42l18 18M410 42l-18 18"/>
+  </g>
+  <!-- tencere -->
+  <ellipse cx="400" cy="394" rx="296" ry="272" fill="#00000014" transform="translate(0 12)"/>
+  <rect x="96" y="352" width="96" height="52" rx="22" fill="#5E5D54" stroke="#3B3A30" stroke-width="6"/>
+  <rect x="608" y="352" width="96" height="52" rx="22" fill="#5E5D54" stroke="#3B3A30" stroke-width="6"/>
+  <circle cx="400" cy="380" r="268" fill="#CDD2D4" stroke="#3B3A30" stroke-width="7"/>
+  <circle cx="400" cy="380" r="244" fill="#A9B1B5" stroke="#3B3A30" stroke-width="4"/>
+  <!-- salcali su -->
+  <circle cx="400" cy="384" r="226" fill="#C9432B"/>
+  <path d="M400 186c110 0 192 80 190 192s-82 192-192 190-188-82-184-194 80-188 186-188z" fill="#DE5C3A"/>
+  <!-- patatesler -->
+  <g fill="#F6DC92" stroke="#3B3A30" stroke-width="6" stroke-linejoin="round">
+    <rect x="284" y="247" width="74" height="68" rx="16" transform="rotate(-10 321 281)"/>
+    <rect x="424" y="236" width="74" height="68" rx="16" transform="rotate(12 461 270)"/>
+    <rect x="358" y="351" width="74" height="68" rx="16" transform="rotate(-4 395 385)"/>
+    <rect x="243" y="376" width="74" height="68" rx="16" transform="rotate(15 280 410)"/>
+    <rect x="483" y="366" width="74" height="68" rx="16" transform="rotate(-18 520 400)"/>
+    <rect x="313" y="471" width="74" height="68" rx="16" transform="rotate(8 350 505)"/>
+    <rect x="443" y="481" width="74" height="68" rx="16" transform="rotate(-12 480 515)"/>
+  </g>
+  <g fill="none" stroke="#FFF4C9" stroke-width="8" stroke-linecap="round">
+    <path d="M298 262l30-5"/><path d="M440 252l28 6"/><path d="M372 366l30-2"/><path d="M258 390l28 7"/>
+    <path d="M498 386l26-8"/><path d="M328 486l30 4"/><path d="M458 500l28-6"/>
+  </g>
+  <g fill="none" stroke="#E2BF6A" stroke-width="5" stroke-linecap="round">
+    <path d="M350 300l-14 4"/><path d="M488 294l-12-2"/><path d="M424 410l-14 1"/><path d="M306 434l-12-3"/>
+    <path d="M546 414l-12 4"/><path d="M378 530l-14-2"/><path d="M506 538l-12 2"/>
+  </g>
+  <!-- biber halkalari -->
+  <g fill="#6FAE4F" stroke="#3B3A30" stroke-width="5">
+    <circle cx="392" cy="262" r="22"/><circle cx="560" cy="300" r="22"/><circle cx="240" cy="318" r="22"/>
+    <circle cx="450" cy="452" r="22"/><circle cx="268" cy="500" r="22"/><circle cx="415" cy="572" r="20"/><circle cx="578" cy="482" r="22"/>
+  </g>
+  <g fill="#DE5C3A" stroke="#3B3A30" stroke-width="3">
+    <circle cx="392" cy="262" r="11"/><circle cx="560" cy="300" r="11"/><circle cx="240" cy="318" r="11"/>
+    <circle cx="450" cy="452" r="11"/><circle cx="268" cy="500" r="11"/><circle cx="415" cy="572" r="10"/><circle cx="578" cy="482" r="11"/>
+  </g>
+  <!-- biber seritleri -->
+  <g fill="#4E8F3A" stroke="#3B3A30" stroke-width="5">
+    <rect x="310" y="338" width="42" height="15" rx="7.500" transform="rotate(30 331 345)"/>
+    <rect x="566" y="366" width="42" height="15" rx="7.500" transform="rotate(-70 587 373)"/>
+    <rect x="200" y="420" width="42" height="15" rx="7.500" transform="rotate(80 221 427)"/>
+    <rect x="510" y="210" width="42" height="15" rx="7.500" transform="rotate(35 531 217)"/>
+  </g>
+  <!-- maydanoz -->
+  <g fill="#3E7A33">
+    <circle cx="430" cy="320" r="5"/><circle cx="300" cy="360" r="4"/><circle cx="520" cy="460" r="5"/>
+    <circle cx="350" cy="220" r="4"/><circle cx="400" cy="460" r="4"/><circle cx="300" cy="555" r="5"/>
+  </g>
+  <!-- parlama -->
+  <path d="M164 300a250 250 0 0 1 94-136" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" opacity=".9"/>
+</svg>

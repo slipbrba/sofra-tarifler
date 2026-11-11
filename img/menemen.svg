@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#F2DFA2"/>
+  <!-- masa deseni -->
+  <g fill="#E6CE86">
+    <circle cx="90" cy="110" r="10"/><circle cx="705" cy="95" r="10"/><circle cx="728" cy="650" r="10"/>
+    <circle cx="80" cy="690" r="10"/><circle cx="400" cy="52" r="10"/><circle cx="250" cy="740" r="7"/><circle cx="560" cy="742" r="7"/>
+  </g>
+  <!-- sahan -->
+  <ellipse cx="400" cy="394" rx="300" ry="268" fill="#00000014" transform="translate(0 12)"/>
+  <rect x="98" y="346" width="96" height="68" rx="28" fill="#C9733E" stroke="#3B3A30" stroke-width="6"/>
+  <rect x="116" y="364" width="38" height="32" rx="14" fill="#F2DFA2" stroke="#3B3A30" stroke-width="4"/>
+  <rect x="606" y="346" width="96" height="68" rx="28" fill="#C9733E" stroke="#3B3A30" stroke-width="6"/>
+  <rect x="646" y="364" width="38" height="32" rx="14" fill="#F2DFA2" stroke="#3B3A30" stroke-width="4"/>
+  <circle cx="400" cy="380" r="262" fill="#C9733E" stroke="#3B3A30" stroke-width="7"/>
+  <circle cx="400" cy="380" r="238" fill="#D9DBD7" stroke="#3B3A30" stroke-width="4"/>
+  <path d="M190 260a232 232 0 0 1 120-104" fill="none" stroke="#EDA676" stroke-width="10" stroke-linecap="round"/>
+  <!-- domates sosu -->
+  <circle cx="400" cy="382" r="222" fill="#C9402A"/>
+  <path d="M398 190c108-2 192 80 192 190s-86 192-194 190-186-84-182-194 78-184 184-186z" fill="#DE5536"/>
+  <!-- domates parcalari -->
+  <g fill="#B8301E" stroke="#3B3A30" stroke-width="4">
+    <rect x="378" y="232" width="34" height="30" rx="9" transform="rotate(14 395 247)"/>
+    <rect x="236" y="352" width="34" height="30" rx="9" transform="rotate(-10 253 367)"/>
+    <rect x="546" y="320" width="34" height="30" rx="9" transform="rotate(20 563 335)"/>
+    <rect x="330" y="530" width="34" height="30" rx="9" transform="rotate(-18 347 545)"/>
+    <rect x="510" y="520" width="34" height="30" rx="9" transform="rotate(8 527 535)"/>
+  </g>
+  <!-- yumurta (cirpilmis) -->
+  <g stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+    <g transform="translate(318 290) rotate(-20) scale(1)"><path d="M-44-4c6-24 32-32 48-20s30 2 36 20-8 34-30 34-26 10-40-2-20-18-14-32z" fill="#F6C33E"/><path d="M-30 6c4-14 18-20 30-14" fill="none" stroke="#FFF8E4" stroke-width="9" stroke-linecap="round"/><path d="M10 14c10 0 18-6 20-14" fill="none" stroke="#FCE08A" stroke-width="7" stroke-linecap="round"/></g>
+    <g transform="translate(478 276) rotate(40) scale(0.9)"><path d="M-44-4c6-24 32-32 48-20s30 2 36 20-8 34-30 34-26 10-40-2-20-18-14-32z" fill="#F6C33E"/><path d="M-30 6c4-14 18-20 30-14" fill="none" stroke="#FFF8E4" stroke-width="9" stroke-linecap="round"/><path d="M10 14c10 0 18-6 20-14" fill="none" stroke="#FCE08A" stroke-width="7" stroke-linecap="round"/></g>
+    <g transform="translate(398 398) rotate(100) scale(1.1)"><path d="M-44-4c6-24 32-32 48-20s30 2 36 20-8 34-30 34-26 10-40-2-20-18-14-32z" fill="#F6C33E"/><path d="M-30 6c4-14 18-20 30-14" fill="none" stroke="#FFF8E4" stroke-width="9" stroke-linecap="round"/><path d="M10 14c10 0 18-6 20-14" fill="none" stroke="#FCE08A" stroke-width="7" stroke-linecap="round"/></g>
+    <g transform="translate(294 458) rotate(170) scale(1)"><path d="M-44-4c6-24 32-32 48-20s30 2 36 20-8 34-30 34-26 10-40-2-20-18-14-32z" fill="#F6C33E"/><path d="M-30 6c4-14 18-20 30-14" fill="none" stroke="#FFF8E4" stroke-width="9" stroke-linecap="round"/><path d="M10 14c10 0 18-6 20-14" fill="none" stroke="#FCE08A" stroke-width="7" stroke-linecap="round"/></g>
+    <g transform="translate(520 432) rotate(-70) scale(1)"><path d="M-44-4c6-24 32-32 48-20s30 2 36 20-8 34-30 34-26 10-40-2-20-18-14-32z" fill="#F6C33E"/><path d="M-30 6c4-14 18-20 30-14" fill="none" stroke="#FFF8E4" stroke-width="9" stroke-linecap="round"/><path d="M10 14c10 0 18-6 20-14" fill="none" stroke="#FCE08A" stroke-width="7" stroke-linecap="round"/></g>
+    <g transform="translate(428 524) rotate(220) scale(0.85)"><path d="M-44-4c6-24 32-32 48-20s30 2 36 20-8 34-30 34-26 10-40-2-20-18-14-32z" fill="#F6C33E"/><path d="M-30 6c4-14 18-20 30-14" fill="none" stroke="#FFF8E4" stroke-width="9" stroke-linecap="round"/><path d="M10 14c10 0 18-6 20-14" fill="none" stroke="#FCE08A" stroke-width="7" stroke-linecap="round"/></g>
+    <g transform="translate(560 330) rotate(10) scale(0.6)"><path d="M-44-4c6-24 32-32 48-20s30 2 36 20-8 34-30 34-26 10-40-2-20-18-14-32z" fill="#F6C33E"/><path d="M-30 6c4-14 18-20 30-14" fill="none" stroke="#FFF8E4" stroke-width="9" stroke-linecap="round"/><path d="M10 14c10 0 18-6 20-14" fill="none" stroke="#FCE08A" stroke-width="7" stroke-linecap="round"/></g>
+    <g transform="translate(250 370) rotate(80) scale(0.6)"><path d="M-44-4c6-24 32-32 48-20s30 2 36 20-8 34-30 34-26 10-40-2-20-18-14-32z" fill="#F6C33E"/><path d="M-30 6c4-14 18-20 30-14" fill="none" stroke="#FFF8E4" stroke-width="9" stroke-linecap="round"/><path d="M10 14c10 0 18-6 20-14" fill="none" stroke="#FCE08A" stroke-width="7" stroke-linecap="round"/></g>
+  </g>
+  <!-- yesil biber -->
+  <g fill="#5FA544" stroke="#3B3A30" stroke-width="5">
+    <rect x="378" y="304" width="46" height="18" rx="9" transform="rotate(-25 401 313)"/>
+    <rect x="236" y="280" width="46" height="18" rx="9" transform="rotate(60 259 289)"/>
+    <rect x="560" y="380" width="46" height="18" rx="9" transform="rotate(80 583 389)"/>
+    <rect x="320" y="370" width="46" height="18" rx="9" transform="rotate(20 343 379)"/>
+    <rect x="460" y="350" width="46" height="18" rx="9" transform="rotate(-50 483 359)"/>
+    <rect x="360" y="460" width="46" height="18" rx="9" transform="rotate(35 383 469)"/>
+    <rect x="232" y="500" width="46" height="18" rx="9" transform="rotate(-40 255 509)"/>
+    <rect x="470" y="210" width="46" height="18" rx="9" transform="rotate(10 493 219)"/>
+    <rect x="480" y="480" width="46" height="18" rx="9" transform="rotate(-10 503 489)"/>
+  </g>
+  <!-- karabiber ve maydanoz -->
+  <g fill="#3B3A30">
+    <circle cx="340" cy="330" r="3"/><circle cx="450" cy="300" r="3"/><circle cx="420" cy="430" r="3"/>
+    <circle cx="280" cy="420" r="3"/><circle cx="540" cy="460" r="3"/><circle cx="380" cy="250" r="3"/><circle cx="440" cy="560" r="3"/>
+  </g>
+  <g fill="#3E7A33">
+    <circle cx="300" cy="250" r="5"/><circle cx="560" cy="290" r="5"/><circle cx="440" cy="460" r="5"/>
+    <circle cx="240" cy="420" r="5"/><circle cx="380" cy="580" r="5"/><circle cx="580" cy="500" r="4"/>
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800">
+  <defs>
+    <g id="bamya" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M-36 -25C0 -26 32 -14 52 0C32 14 0 26 -36 25z" fill="#7DAE4C"/>
+      <path d="M-32 -10C0 -10 30 -5 46 0M-32 10C0 10 30 5 46 0" fill="none" stroke="#5C8A34" stroke-width="4"/>
+      <rect x="-52" y="-27" width="22" height="54" rx="10" fill="#5C8A34"/>
+      <rect x="-64" y="-6" width="14" height="12" rx="5" fill="#A7B865"/>
+    </g>
+    <g id="kesit" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <path d="M0 -26L25 -8L16 21L-16 21L-25 -8z" fill="#7DAE4C"/>
+      <path d="M0 -17L16 -5L10 14L-10 14L-16 -5z" fill="#E4EDB8" stroke="none"/>
+      <g fill="#FFFDF6" stroke="none"><circle cx="0" cy="-9" r="3.500"/><circle cx="8" cy="-2" r="3.500"/><circle cx="5" cy="8" r="3.500"/><circle cx="-5" cy="8" r="3.500"/><circle cx="-8" cy="-2" r="3.500"/></g>
+    </g>
+  </defs>
+  <rect width="800" height="800" fill="#E3E4C3"/>
+  <!-- masa deseni -->
+  <g fill="#D3D5AD">
+    <circle cx="90" cy="110" r="10"/><circle cx="710" cy="96" r="10"/><circle cx="728" cy="650" r="10"/>
+    <circle cx="74" cy="680" r="10"/><circle cx="400" cy="56" r="10"/><circle cx="56" cy="400" r="10"/><circle cx="748" cy="380" r="10"/>
+  </g>
+  <!-- tabak -->
+  <ellipse cx="400" cy="392" rx="292" ry="292" fill="#00000014" transform="translate(0 14)"/>
+  <circle cx="400" cy="380" r="290" fill="#FFFDF6"/>
+  <circle cx="400" cy="380" r="290" fill="none" stroke="#3B3A30" stroke-width="7"/>
+  <circle cx="400" cy="380" r="218" fill="#F3EEDD"/>
+  <!-- domatesli sos -->
+  <path d="M400 176c120 0 210 86 206 202s-94 208-210 206-206-94-200-210 92-198 204-198z" fill="#C9432B"/>
+  <path d="M400 204c100 0 178 76 176 174s-82 178-180 176-174-82-170-180 80-170 174-170z" fill="#DD5A38"/>
+  <!-- domates parçaları -->
+  <g fill="#B83524" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+    <rect x="276" y="236" width="26" height="22" rx="7" transform="rotate(-12 289 247)"/>
+    <rect x="556" y="262" width="24" height="22" rx="7" transform="rotate(14 568 273)"/>
+    <rect x="236" y="436" width="26" height="22" rx="7" transform="rotate(20 249 447)"/>
+    <rect x="452" y="400" width="24" height="20" rx="7" transform="rotate(-18 464 410)"/>
+    <rect x="536" y="500" width="24" height="22" rx="7" transform="rotate(8 548 511)"/>
+  </g>
+  <!-- bamyalar -->
+  <use xlink:href="#bamya" transform="translate(326 286) rotate(-30)"/>
+  <use xlink:href="#bamya" transform="translate(452 262) rotate(196)"/>
+  <use xlink:href="#bamya" transform="translate(540 344) rotate(124)"/>
+  <use xlink:href="#bamya" transform="translate(256 372) rotate(80)"/>
+  <use xlink:href="#bamya" transform="translate(392 356) rotate(-12)"/>
+  <use xlink:href="#bamya" transform="translate(526 450) rotate(92)"/>
+  <use xlink:href="#bamya" transform="translate(304 470) rotate(28)"/>
+  <use xlink:href="#bamya" transform="translate(414 460) rotate(164)"/>
+  <use xlink:href="#bamya" transform="translate(370 548) rotate(-64)"/>
+  <use xlink:href="#bamya" transform="translate(478 546) rotate(-150)"/>
+  <!-- kesitler -->
+  <use xlink:href="#kesit" transform="translate(392 228) rotate(10)"/>
+  <use xlink:href="#kesit" transform="translate(296 382) rotate(-14)"/>
+  <use xlink:href="#kesit" transform="translate(470 382) rotate(20)"/>
+  <!-- limon -->
+  <g transform="translate(588 566) rotate(-20)" stroke="#3B3A30" stroke-width="6" stroke-linejoin="round">
+    <circle r="44" fill="#F2D23C"/>
+    <circle r="34" fill="#FBEB8E" stroke="none"/>
+    <path d="M0 -30V30M-26 -15L26 15M-26 15L26 -15" stroke="#F2D23C" stroke-width="5" stroke-linecap="round"/>
+    <circle r="5" fill="#FFFDF6" stroke="none"/>
+  </g>
+  <!-- parlama -->
+  <path d="M176 300a236 236 0 0 1 90-128" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" opacity=".9"/>
+</svg>

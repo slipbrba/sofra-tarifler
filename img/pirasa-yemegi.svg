@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#DCE3E8"/>
+  <!-- masa deseni -->
+  <g fill="#C9D3DA">
+    <circle cx="95" cy="105" r="9"/><circle cx="700" cy="100" r="9"/><circle cx="735" cy="655" r="9"/>
+    <circle cx="75" cy="690" r="9"/><circle cx="395" cy="55" r="9"/><circle cx="50" cy="390" r="9"/><circle cx="750" cy="365" r="9"/>
+    <circle cx="230" cy="60" r="6"/><circle cx="570" cy="740" r="6"/>
+  </g>
+  <!-- tabak -->
+  <ellipse cx="400" cy="392" rx="292" ry="292" fill="#00000014" transform="translate(0 14)"/>
+  <circle cx="400" cy="380" r="290" fill="#FFFDF6"/>
+  <circle cx="400" cy="380" r="290" fill="none" stroke="#3B3A30" stroke-width="7"/>
+  <circle cx="400" cy="380" r="222" fill="#F1ECDD"/>
+  <!-- zeytinyagli su -->
+  <path d="M398 176c120-2 206 84 206 204s-94 204-210 202-200-90-196-206 84-198 200-200z" fill="#E6C565"/>
+  <path d="M400 204c102 0 176 74 176 176s-78 176-178 174-170-78-168-178 70-172 170-172z" fill="#EFD683"/>
+  <!-- pirinc taneleri -->
+  <g fill="#FFFDF6">
+    <rect x="352" y="214" width="20" height="9" rx="4.500" transform="rotate(30 362 218)"/>
+    <rect x="496" y="214" width="20" height="9" rx="4.500" transform="rotate(-40 506 218)"/>
+    <rect x="232" y="338" width="20" height="9" rx="4.500" transform="rotate(70 242 342)"/>
+    <rect x="440" y="318" width="20" height="9" rx="4.500" transform="rotate(-10 450 322)"/>
+    <rect x="356" y="408" width="20" height="9" rx="4.500" transform="rotate(50 366 412)"/>
+    <rect x="556" y="500" width="20" height="9" rx="4.500" transform="rotate(15 566 504)"/>
+    <rect x="266" y="530" width="20" height="9" rx="4.500" transform="rotate(-25 276 534)"/>
+    <rect x="368" y="566" width="20" height="9" rx="4.500" transform="rotate(60 378 570)"/>
+    <rect x="452" y="400" width="20" height="9" rx="4.500" transform="rotate(-50 462 404)"/>
+    <rect x="580" y="320" width="20" height="9" rx="4.500" transform="rotate(80 590 324)"/>
+    <rect x="290" y="210" width="20" height="9" rx="4.500" transform="rotate(-60 300 214)"/>
+    <rect x="216" y="430" width="20" height="9" rx="4.500" transform="rotate(20 226 434)"/>
+    <rect x="510" y="390" width="20" height="9" rx="4.500" transform="rotate(35 520 394)"/>
+    <rect x="300" y="420" width="20" height="9" rx="4.500" transform="rotate(-15 310 424)"/>
+  </g>
+  <!-- pirasa dilimleri -->
+  <g stroke="#3B3A30" stroke-width="5">
+    <g transform="translate(320 280) rotate(-20)"><ellipse rx="44" ry="27" fill="#9CC25E"/><ellipse rx="31" ry="18" fill="#D7E8A6" stroke-width="3"/><ellipse rx="16" ry="8" fill="#F5F8E1" stroke-width="3"/></g>
+    <g transform="translate(452 258) rotate(15)"><ellipse rx="44" ry="27" fill="#9CC25E"/><ellipse rx="31" ry="18" fill="#D7E8A6" stroke-width="3"/><ellipse rx="16" ry="8" fill="#F5F8E1" stroke-width="3"/></g>
+    <g transform="translate(540 352) rotate(70)"><ellipse rx="44" ry="27" fill="#9CC25E"/><ellipse rx="31" ry="18" fill="#D7E8A6" stroke-width="3"/><ellipse rx="16" ry="8" fill="#F5F8E1" stroke-width="3"/></g>
+    <g transform="translate(268 392) rotate(80)"><ellipse rx="44" ry="27" fill="#9CC25E"/><ellipse rx="31" ry="18" fill="#D7E8A6" stroke-width="3"/><ellipse rx="16" ry="8" fill="#F5F8E1" stroke-width="3"/></g>
+    <g transform="translate(400 360) rotate(-10)"><ellipse rx="44" ry="27" fill="#9CC25E"/><ellipse rx="31" ry="18" fill="#D7E8A6" stroke-width="3"/><ellipse rx="16" ry="8" fill="#F5F8E1" stroke-width="3"/></g>
+    <g transform="translate(500 452) rotate(30)"><ellipse rx="44" ry="27" fill="#9CC25E"/><ellipse rx="31" ry="18" fill="#D7E8A6" stroke-width="3"/><ellipse rx="16" ry="8" fill="#F5F8E1" stroke-width="3"/></g>
+    <g transform="translate(330 482) rotate(-35)"><ellipse rx="44" ry="27" fill="#9CC25E"/><ellipse rx="31" ry="18" fill="#D7E8A6" stroke-width="3"/><ellipse rx="16" ry="8" fill="#F5F8E1" stroke-width="3"/></g>
+    <g transform="translate(428 528) rotate(5)"><ellipse rx="44" ry="27" fill="#9CC25E"/><ellipse rx="31" ry="18" fill="#D7E8A6" stroke-width="3"/><ellipse rx="16" ry="8" fill="#F5F8E1" stroke-width="3"/></g>
+  </g>
+  <!-- havuc halkalari -->
+  <g stroke="#3B3A30" stroke-width="5" fill="#F28C28">
+    <circle cx="390" cy="278" r="22"/><circle cx="540" cy="270" r="22"/><circle cx="330" cy="346" r="22"/>
+    <circle cx="575" cy="426" r="22"/><circle cx="258" cy="462" r="22"/><circle cx="402" cy="442" r="22"/>
+    <circle cx="482" cy="330" r="20"/>
+  </g>
+  <g fill="#FAB766">
+    <circle cx="390" cy="278" r="11"/><circle cx="540" cy="270" r="11"/><circle cx="330" cy="346" r="11"/>
+    <circle cx="575" cy="426" r="11"/><circle cx="258" cy="462" r="11"/><circle cx="402" cy="442" r="11"/>
+    <circle cx="482" cy="330" r="10"/>
+  </g>
+  <!-- parlama -->
+  <path d="M176 300a236 236 0 0 1 90-128" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" opacity=".9"/>
+  <!-- limon dilimi -->
+  <g transform="translate(600 562)">
+    <circle r="54" fill="#F5CF3A" stroke="#3B3A30" stroke-width="6"/>
+    <circle r="43" fill="#FBEA94"/>
+    <g stroke="#F5CF3A" stroke-width="5" stroke-linecap="round">
+      <path d="M0 0v-40"/><path d="M0 0l34 -20"/><path d="M0 0l34 20"/><path d="M0 0v40"/><path d="M0 0l-34 20"/><path d="M0 0l-34 -20"/>
+    </g>
+    <circle r="6" fill="#F5CF3A"/>
+  </g>
+</svg>

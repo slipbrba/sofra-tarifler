@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800">
+  <defs>
+    <g id="but" stroke="#3B3A30" stroke-width="6" stroke-linejoin="round">
+      <rect x="34" y="-9" width="40" height="18" rx="6" fill="#F6EEDC"/>
+      <circle cx="76" cy="-10" r="11" fill="#F6EEDC"/><circle cx="76" cy="10" r="11" fill="#F6EEDC"/>
+      <path d="M-66 0C-66 -34 -36 -44 -6 -38C14 -34 30 -20 44 -11L44 11C30 20 14 34 -6 38C-36 44 -66 34 -66 0z" fill="#D98B3A"/>
+      <g fill="#B5622B" stroke="none"><ellipse cx="-34" cy="-14" rx="12" ry="7"/><ellipse cx="-4" cy="16" rx="10" ry="6"/><circle cx="16" cy="-12" r="5"/><circle cx="-46" cy="14" r="5"/></g>
+      <path d="M-50 -16C-40 -28 -24 -32 -10 -30" fill="none" stroke="#F2B866" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <g id="pat" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <path d="M-40 10C-30 -24 30 -24 40 10C20 20 -20 20 -40 10z" fill="#F4D27A"/>
+      <path d="M-31 -4C-18 -17 18 -17 31 -4" fill="none" stroke="#B9824A" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <g id="dom" stroke="#3B3A30" stroke-width="5">
+      <circle r="27" fill="#D8452E"/>
+      <g fill="#F28A68" stroke="none"><path d="M-3 -4L-16 -14A20 20 0 0 1 -1 -20z"/><path d="M4 -3L4 -20A20 20 0 0 1 18 -6z"/><path d="M4 5L18 4A20 20 0 0 1 4 19z"/><path d="M-4 4L-4 19A20 20 0 0 1 -18 3z"/></g>
+      <g fill="#FCE4A8" stroke="none"><circle cx="-9" cy="-12" r="2.500"/><circle cx="11" cy="-10" r="2.500"/><circle cx="10" cy="11" r="2.500"/><circle cx="-10" cy="11" r="2.500"/></g>
+    </g>
+    <rect id="bib" x="-34" y="-9" width="68" height="18" rx="9" stroke="#3B3A30" stroke-width="5"/>
+  </defs>
+  <rect width="800" height="800" fill="#F4E4CF"/>
+  <!-- masa deseni -->
+  <g fill="#E7D1B4">
+    <circle cx="90" cy="96" r="10"/><circle cx="706" cy="84" r="10"/><circle cx="728" cy="680" r="10"/>
+    <circle cx="70" cy="690" r="10"/><circle cx="400" cy="52" r="10"/><circle cx="46" cy="380" r="10"/><circle cx="756" cy="390" r="10"/><circle cx="400" cy="730" r="10"/>
+  </g>
+  <!-- fırın kabı -->
+  <rect x="124" y="164" width="560" height="452" rx="46" fill="#00000014" transform="translate(0 10)"/>
+  <g stroke="#3B3A30" stroke-width="7" stroke-linejoin="round">
+    <rect x="100" y="326" width="48" height="108" rx="18" fill="#C8573A"/>
+    <rect x="652" y="326" width="48" height="108" rx="18" fill="#C8573A"/>
+    <rect x="124" y="156" width="552" height="448" rx="46" fill="#C8573A"/>
+    <rect x="152" y="184" width="496" height="392" rx="28" fill="#F3EEDD" stroke-width="6"/>
+  </g>
+  <!-- fırın suyu -->
+  <rect x="164" y="196" width="472" height="368" rx="22" fill="#E2A04F"/>
+  <path d="M200 250c80-40 300-40 400 0v260c-100 40-320 40-400 0z" fill="#EBB463"/>
+  <!-- patatesler -->
+  <use xlink:href="#pat" transform="translate(206 236) rotate(36)"/>
+  <use xlink:href="#pat" transform="translate(400 228) rotate(-6)"/>
+  <use xlink:href="#pat" transform="translate(598 240) rotate(-40)"/>
+  <use xlink:href="#pat" transform="translate(404 330) rotate(176)"/>
+  <use xlink:href="#pat" transform="translate(396 446) rotate(8)"/>
+  <use xlink:href="#pat" transform="translate(206 528) rotate(-150)"/>
+  <use xlink:href="#pat" transform="translate(406 540) rotate(184)"/>
+  <use xlink:href="#pat" transform="translate(600 530) rotate(150)"/>
+  <use xlink:href="#pat" transform="translate(196 316) rotate(96)"/>
+  <!-- biberler -->
+  <use xlink:href="#bib" fill="#5E9C3F" transform="translate(200 420) rotate(84)"/>
+  <use xlink:href="#bib" fill="#D8452E" transform="translate(604 392) rotate(96)"/>
+  <use xlink:href="#bib" fill="#5E9C3F" transform="translate(404 388) rotate(-4)"/>
+  <use xlink:href="#bib" fill="#E9B83A" transform="translate(310 556) rotate(-12)"/>
+  <use xlink:href="#bib" fill="#5E9C3F" transform="translate(500 218) rotate(10)"/>
+  <use xlink:href="#bib" fill="#E9B83A" transform="translate(292 210) rotate(-8)"/>
+  <!-- domatesler -->
+  <use xlink:href="#dom" transform="translate(500 548)"/>
+  <use xlink:href="#dom" transform="translate(602 310)"/>
+  <use xlink:href="#dom" transform="translate(268 400)"/>
+  <use xlink:href="#dom" transform="translate(540 380)"/>
+  <!-- tavuk butları -->
+  <use xlink:href="#but" transform="translate(300 300) rotate(-150) scale(1.1)"/>
+  <use xlink:href="#but" transform="translate(500 296) rotate(-30) scale(1.1)"/>
+  <use xlink:href="#but" transform="translate(300 470) rotate(150) scale(1.1)"/>
+  <use xlink:href="#but" transform="translate(504 470) rotate(28) scale(1.1)"/>
+  <!-- kekik -->
+  <g fill="#4E7F34">
+    <circle cx="380" cy="300" r="4"/><circle cx="430" cy="360" r="4"/><circle cx="360" cy="460" r="4"/><circle cx="250" cy="390" r="4"/>
+    <circle cx="560" cy="380" r="4"/><circle cx="450" cy="510" r="4"/><circle cx="340" cy="380" r="4"/><circle cx="600" cy="300" r="4"/>
+  </g>
+  <!-- parlama -->
+  <path d="M146 300V230c0-28 14-44 40-48" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" opacity=".8"/>
+</svg>

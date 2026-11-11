@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#E9E4C9"/>
+  <!-- masa deseni -->
+  <g fill="#DED8B8">
+    <circle cx="90" cy="110" r="10"/><circle cx="700" cy="90" r="10"/><circle cx="730" cy="640" r="10"/>
+    <circle cx="80" cy="690" r="10"/><circle cx="400" cy="60" r="10"/><circle cx="60" cy="400" r="10"/><circle cx="745" cy="370" r="10"/>
+  </g>
+  <!-- tabak -->
+  <ellipse cx="400" cy="392" rx="292" ry="292" fill="#00000014" transform="translate(0 14)"/>
+  <circle cx="400" cy="380" r="290" fill="#FFFDF6"/>
+  <circle cx="400" cy="380" r="290" fill="none" stroke="#3B3A30" stroke-width="7"/>
+  <circle cx="400" cy="380" r="218" fill="#F3EEDD"/>
+  <!-- salçalı su -->
+  <path d="M400 178c118 0 208 86 204 200s-92 206-208 204-204-92-198-208 90-196 202-196z" fill="#E8743B"/>
+  <path d="M400 206c98 0 176 74 174 172s-80 176-178 174-172-80-168-178 78-168 172-168z" fill="#F08A4B"/>
+  <!-- kabak parçaları -->
+  <g stroke="#3B3A30" stroke-width="6" stroke-linejoin="round">
+    <g fill="#DCE8A6">
+      <rect x="292" y="262" width="78" height="70" rx="20" transform="rotate(-14 331 297)"/>
+      <rect x="420" y="250" width="80" height="72" rx="20" transform="rotate(12 460 286)"/>
+      <rect x="250" y="368" width="76" height="72" rx="20" transform="rotate(8 288 404)"/>
+      <rect x="366" y="350" width="84" height="76" rx="22" transform="rotate(-6 408 388)"/>
+      <rect x="478" y="356" width="76" height="70" rx="20" transform="rotate(18 516 391)"/>
+      <rect x="318" y="456" width="78" height="70" rx="20" transform="rotate(-10 357 491)"/>
+      <rect x="430" y="452" width="78" height="72" rx="20" transform="rotate(10 469 488)"/>
+    </g>
+  </g>
+  <!-- kabuk kenarları -->
+  <g fill="none" stroke="#7FA650" stroke-width="9" stroke-linecap="round">
+    <path d="M300 280l-6 44"/><path d="M494 268l-8 46"/><path d="M262 384l56-8" transform="translate(0 48)"/>
+    <path d="M376 364l64-6"/><path d="M542 380l-14 44"/><path d="M330 470l-8 44"/><path d="M440 464l60 10"/>
+  </g>
+  <!-- domates, biber -->
+  <g stroke="#3B3A30" stroke-width="5">
+    <circle cx="398" cy="300" r="16" fill="#D8452E"/><circle cx="560" cy="330" r="13" fill="#D8452E"/>
+    <circle cx="300" cy="350" r="12" fill="#D8452E"/><circle cx="412" cy="548" r="14" fill="#D8452E"/>
+    <rect x="510" y="470" width="34" height="14" rx="7" fill="#6FA046" transform="rotate(-30 527 477)"/>
+    <rect x="246" y="460" width="34" height="14" rx="7" fill="#6FA046" transform="rotate(24 263 467)"/>
+    <rect x="382" y="226" width="34" height="14" rx="7" fill="#6FA046" transform="rotate(10 399 233)"/>
+  </g>
+  <!-- pirinç taneleri -->
+  <g fill="#FFFDF6">
+    <rect x="340" y="236" width="20" height="9" rx="4.500" transform="rotate(30 350 240)"/>
+    <rect x="520" y="300" width="20" height="9" rx="4.500" transform="rotate(-40 530 304)"/>
+    <rect x="228" y="330" width="20" height="9" rx="4.500" transform="rotate(70 238 334)"/>
+    <rect x="452" y="336" width="20" height="9" rx="4.500" transform="rotate(-10 462 340)"/>
+    <rect x="336" y="430" width="20" height="9" rx="4.500" transform="rotate(50 346 434)"/>
+    <rect x="552" y="440" width="20" height="9" rx="4.500" transform="rotate(15 562 444)"/>
+    <rect x="286" y="530" width="20" height="9" rx="4.500" transform="rotate(-25 296 534)"/>
+    <rect x="474" y="536" width="20" height="9" rx="4.500" transform="rotate(60 484 540)"/>
+    <rect x="400" y="436" width="20" height="9" rx="4.500" transform="rotate(-50 410 440)"/>
+  </g>
+  <!-- parlama -->
+  <path d="M176 300a236 236 0 0 1 90-128" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" opacity=".9"/>
+</svg>

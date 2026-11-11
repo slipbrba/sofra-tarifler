@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#CFE6E0"/>
+  <!-- masa deseni -->
+  <g fill="#B9D8D0">
+    <circle cx="90" cy="110" r="10"/><circle cx="420" cy="58" r="10"/><circle cx="748" cy="400" r="10"/><circle cx="56" cy="420" r="10"/>
+    <circle cx="96" cy="720" r="10"/><circle cx="710" cy="712" r="10"/><circle cx="250" cy="60" r="10"/>
+  </g>
+  <defs>
+    <g id="b">
+      <path d="M-21-2c0-9 9-13 21-13s21 4 21 13-8 15-21 15c-5 0-7-3-11-3s-10 2-10-12z" fill="#FBEEDC" stroke="#3B3A30" stroke-width="4.5" stroke-linejoin="round"/>
+      <path d="M-11-6c6-3 16-3 22 0" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+      <path d="M-2 7h7" stroke="#C9AE86" stroke-width="3.5" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <!-- turşu tabağı -->
+  <circle cx="630" cy="170" r="60" fill="#00000014"/>
+  <circle cx="630" cy="160" r="60" fill="#FFFDF6" stroke="#3B3A30" stroke-width="6"/>
+  <circle cx="630" cy="160" r="44" fill="#F3EEDD"/>
+  <g stroke="#3B3A30" stroke-width="4.5">
+    <path d="M592 168c10-34 40-52 70-46-12 10-34 20-46 46z" fill="#B7C95A" stroke-linejoin="round"/>
+    <circle cx="616" cy="146" r="19" fill="#8FAE4E"/><circle cx="648" cy="172" r="19" fill="#8FAE4E"/>
+  </g>
+  <g fill="#D4E29A"><circle cx="616" cy="146" r="11"/><circle cx="648" cy="172" r="11"/></g>
+  <g fill="#8FAE4E"><circle cx="612" cy="143" r="2.5"/><circle cx="620" cy="149" r="2.5"/><circle cx="644" cy="169" r="2.5"/><circle cx="652" cy="175" r="2.5"/></g>
+  <!-- kâse -->
+  <circle cx="385" cy="409" r="257" fill="#00000014"/>
+  <circle cx="385" cy="395" r="255" fill="#C47A4D" stroke="#3B3A30" stroke-width="7"/>
+  <circle cx="385" cy="395" r="230" fill="#F3E6D2" stroke="#3B3A30" stroke-width="5"/>
+  <!-- salçalı su -->
+  <circle cx="385" cy="395" r="204" fill="#B23A26"/>
+  <path d="M385 214c96 0 176 78 174 180s-80 180-176 180-176-78-174-182 80-178 176-178z" fill="#C64A2E"/>
+  <g fill="#E0723A">
+    <ellipse cx="300" cy="290" rx="14" ry="8"/><ellipse cx="480" cy="300" rx="11" ry="6"/><ellipse cx="540" cy="420" rx="13" ry="7"/>
+    <ellipse cx="380" cy="540" rx="14" ry="8"/><ellipse cx="240" cy="470" rx="11" ry="6"/><ellipse cx="400" cy="390" rx="10" ry="5"/>
+  </g>
+  <!-- fasulyeler -->
+  <use xlink:href="#b" transform="translate(281 294) rotate(160)"/><use xlink:href="#b" transform="translate(498 416) rotate(60)"/>
+  <use xlink:href="#b" transform="translate(472 470) rotate(60)"/><use xlink:href="#b" transform="translate(346 432) rotate(60)"/>
+  <use xlink:href="#b" transform="translate(355 553) rotate(120)"/><use xlink:href="#b" transform="translate(466 521) rotate(40)"/>
+  <use xlink:href="#b" transform="translate(451 378) rotate(40)"/><use xlink:href="#b" transform="translate(251 361) rotate(60)"/>
+  <use xlink:href="#b" transform="translate(439 551) rotate(120)"/><use xlink:href="#b" transform="translate(355 491) rotate(40)"/>
+  <use xlink:href="#b" transform="translate(310 527) rotate(0)"/><use xlink:href="#b" transform="translate(431 501) rotate(40)"/>
+  <use xlink:href="#b" transform="translate(540 453) rotate(0)"/><use xlink:href="#b" transform="translate(282 465) rotate(120)"/>
+  <use xlink:href="#b" transform="translate(532 325) rotate(100)"/><use xlink:href="#b" transform="translate(233 463) rotate(60)"/>
+  <use xlink:href="#b" transform="translate(406 437) rotate(40)"/><use xlink:href="#b" transform="translate(368 303) rotate(140)"/>
+  <use xlink:href="#b" transform="translate(280 425) rotate(0)"/><use xlink:href="#b" transform="translate(518 377) rotate(140)"/>
+  <use xlink:href="#b" transform="translate(315 381) rotate(140)"/><use xlink:href="#b" transform="translate(429 321) rotate(80)"/>
+  <use xlink:href="#b" transform="translate(239 419) rotate(100)"/><use xlink:href="#b" transform="translate(440 272) rotate(100)"/>
+  <use xlink:href="#b" transform="translate(373 243) rotate(100)"/><use xlink:href="#b" transform="translate(334 345) rotate(40)"/>
+  <use xlink:href="#b" transform="translate(397 554) rotate(0)"/><use xlink:href="#b" transform="translate(482 272) rotate(160)"/>
+  <use xlink:href="#b" transform="translate(241 315) rotate(40)"/><use xlink:href="#b" transform="translate(265 508) rotate(40)"/>
+  <use xlink:href="#b" transform="translate(480 315) rotate(0)"/><use xlink:href="#b" transform="translate(382 404) rotate(120)"/>
+  <use xlink:href="#b" transform="translate(507 497) rotate(80)"/><use xlink:href="#b" transform="translate(399 354) rotate(60)"/>
+  <use xlink:href="#b" transform="translate(308 264) rotate(40)"/><use xlink:href="#b" transform="translate(399 274) rotate(40)"/>
+  <use xlink:href="#b" transform="translate(448 423) rotate(80)"/><use xlink:href="#b" transform="translate(546 410) rotate(60)"/>
+  <use xlink:href="#b" transform="translate(327 302) rotate(140)"/><use xlink:href="#b" transform="translate(419 236) rotate(20)"/>
+  <use xlink:href="#b" transform="translate(290 336) rotate(120)"/><use xlink:href="#b" transform="translate(217 385) rotate(160)"/>
+  <use xlink:href="#b" transform="translate(392 513) rotate(80)"/><use xlink:href="#b" transform="translate(323 465) rotate(20)"/>
+  <!-- parlama -->
+  <path d="M158 312a242 242 0 0 1 106-127" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" opacity=".8"/>
+</svg>

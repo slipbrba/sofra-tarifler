@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#F3DCCB"/>
+  <!-- masa deseni -->
+  <g fill="#E8CBB5">
+    <circle cx="90" cy="110" r="10"/><circle cx="705" cy="95" r="10"/><circle cx="725" cy="650" r="10"/>
+    <circle cx="85" cy="680" r="10"/><circle cx="400" cy="55" r="10"/><circle cx="55" cy="395" r="10"/><circle cx="748" cy="380" r="10"/>
+  </g>
+  <!-- tabak -->
+  <ellipse cx="400" cy="392" rx="292" ry="292" fill="#00000014" transform="translate(0 14)"/>
+  <circle cx="400" cy="380" r="290" fill="#FFFDF6"/>
+  <circle cx="400" cy="380" r="290" fill="none" stroke="#3B3A30" stroke-width="7"/>
+  <circle cx="400" cy="380" r="218" fill="#F3EEDD"/>
+  <!-- salçalı su -->
+  <path d="M400 178c118 0 208 86 204 200s-92 206-208 204-204-92-198-208 90-196 202-196z" fill="#D9573A"/>
+  <path d="M400 206c98 0 176 74 174 172s-80 176-178 174-172-80-168-178 78-168 172-168z" fill="#E46D46"/>
+  <!-- patates küpleri -->
+  <g fill="#F6DC92" stroke="#3B3A30" stroke-width="6" stroke-linejoin="round">
+    <rect x="278" y="261" width="64" height="58" rx="14" transform="rotate(-12 310 290)"/>
+    <rect x="438" y="251" width="64" height="58" rx="14" transform="rotate(10 470 280)"/>
+    <rect x="368" y="371" width="64" height="58" rx="14" transform="rotate(-5 400 400)"/>
+    <rect x="253" y="411" width="64" height="58" rx="14" transform="rotate(14 285 440)"/>
+    <rect x="483" y="416" width="64" height="58" rx="14" transform="rotate(-16 515 445)"/>
+  </g>
+  <g fill="none" stroke="#FFF4C9" stroke-width="7" stroke-linecap="round">
+    <path d="M290 274l26-6"/><path d="M452 266l24 5"/><path d="M382 386l26-2"/><path d="M266 426l24 6"/><path d="M496 434l24-7"/>
+  </g>
+  <!-- havuç küpleri -->
+  <g fill="#FBA23A" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+    <rect x="372" y="262" width="36" height="36" rx="8" transform="rotate(20 390 280)"/>
+    <rect x="522" y="332" width="36" height="36" rx="8" transform="rotate(-10 540 350)"/>
+    <rect x="232" y="337" width="36" height="36" rx="8" transform="rotate(15 250 355)"/>
+    <rect x="412" y="492" width="36" height="36" rx="8" transform="rotate(-20 430 510)"/>
+    <rect x="342" y="482" width="36" height="36" rx="8" transform="rotate(12 360 500)"/>
+    <rect x="452" y="352" width="36" height="36" rx="8" transform="rotate(30 470 370)"/>
+  </g>
+  <!-- bezelyeler -->
+  <g fill="#8CC152" stroke="#3B3A30" stroke-width="4">
+    <circle cx="355" cy="226" r="13"/><circle cx="415" cy="228" r="13"/><circle cx="545" cy="300" r="13"/>
+    <circle cx="250" cy="300" r="13"/><circle cx="235" cy="398" r="13"/><circle cx="340" cy="345" r="13"/>
+    <circle cx="420" cy="332" r="13"/><circle cx="500" cy="332" r="13"/><circle cx="565" cy="412" r="13"/>
+    <circle cx="275" cy="505" r="13"/><circle cx="312" cy="530" r="13"/><circle cx="400" cy="545" r="13"/>
+    <circle cx="398" cy="460" r="13"/><circle cx="470" cy="550" r="13"/><circle cx="545" cy="500" r="13"/>
+    <circle cx="342" cy="430" r="13"/><circle cx="458" cy="425" r="13"/><circle cx="300" cy="375" r="13"/>
+    <circle cx="312" cy="240" r="12"/><circle cx="228" cy="452" r="12"/><circle cx="574" cy="372" r="12"/>
+    <circle cx="460" cy="230" r="12"/><circle cx="508" cy="525" r="12"/><circle cx="440" cy="465" r="12"/>
+  </g>
+  <g fill="#D3EBA4">
+    <circle cx="351" cy="222" r="3.500"/><circle cx="411" cy="224" r="3.500"/><circle cx="541" cy="296" r="3.500"/>
+    <circle cx="246" cy="296" r="3.500"/><circle cx="231" cy="394" r="3.500"/><circle cx="336" cy="341" r="3.500"/>
+    <circle cx="416" cy="328" r="3.500"/><circle cx="496" cy="328" r="3.500"/><circle cx="561" cy="408" r="3.500"/>
+    <circle cx="271" cy="501" r="3.500"/><circle cx="308" cy="526" r="3.500"/><circle cx="396" cy="541" r="3.500"/>
+    <circle cx="394" cy="456" r="3.500"/><circle cx="466" cy="546" r="3.500"/><circle cx="541" cy="496" r="3.500"/>
+    <circle cx="338" cy="426" r="3.500"/><circle cx="454" cy="421" r="3.500"/><circle cx="296" cy="371" r="3.500"/>
+    <circle cx="308" cy="236" r="3"/><circle cx="224" cy="448" r="3"/><circle cx="570" cy="368" r="3"/>
+    <circle cx="456" cy="226" r="3"/><circle cx="504" cy="521" r="3"/><circle cx="436" cy="461" r="3"/>
+  </g>
+  <!-- parlama -->
+  <path d="M176 300a236 236 0 0 1 90-128" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" opacity=".9"/>
+</svg>

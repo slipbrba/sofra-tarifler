@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800">
+  <defs>
+    <g id="b">
+      <path d="M-27 -4C-27 -17 -13 -21 -2 -16C6 -12 12 -18 21 -14C31 -8 30 10 17 16C4 22 -27 16 -27 -4z" fill="#E4AE9C" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round"/>
+      <g fill="#A84B5E"><ellipse cx="-14" cy="-4" rx="5" ry="3"/><ellipse cx="2" cy="6" rx="6" ry="3" transform="rotate(20 2 6)"/><ellipse cx="16" cy="-4" rx="4" ry="3"/><circle cx="-8" cy="9" r="2.500"/><circle cx="8" cy="-8" r="2.500"/><ellipse cx="-20" cy="5" rx="3" ry="2"/></g>
+    </g>
+    <rect id="h" x="-15" y="-15" width="30" height="30" rx="8" fill="#F08A2C" stroke="#3B3A30" stroke-width="5"/>
+    <g id="m" fill="#5E9C3F"><circle cx="0" cy="-5" r="5.500"/><circle cx="-5" cy="3" r="5.500"/><circle cx="5" cy="3" r="5.500"/></g>
+  </defs>
+  <rect width="800" height="800" fill="#DCE6D5"/>
+  <!-- masa deseni -->
+  <g fill="#C9D7C0">
+    <circle cx="96" cy="104" r="9"/><circle cx="116" cy="124" r="6"/><circle cx="704" cy="92" r="9"/><circle cx="724" cy="648" r="9"/><circle cx="704" cy="668" r="6"/>
+    <circle cx="80" cy="684" r="9"/><circle cx="400" cy="54" r="9"/><circle cx="52" cy="392" r="9"/><circle cx="750" cy="376" r="9"/>
+  </g>
+  <!-- tabak -->
+  <ellipse cx="400" cy="392" rx="292" ry="292" fill="#00000014" transform="translate(0 14)"/>
+  <circle cx="400" cy="380" r="290" fill="#FFFDF6"/>
+  <circle cx="400" cy="380" r="290" fill="none" stroke="#3B3A30" stroke-width="7"/>
+  <circle cx="400" cy="380" r="218" fill="#F3EEDD"/>
+  <!-- zeytinyağlı sos -->
+  <path d="M398 184c116 2 204 84 200 196s-90 202-204 200-200-90-196-204 86-194 200-192z" fill="#EE9D58"/>
+  <path d="M398 210c98 2 172 72 170 168s-78 172-174 170-170-78-166-174 74-166 170-164z" fill="#F4B271"/>
+  <!-- havuç -->
+  <use xlink:href="#h" transform="translate(477 432) rotate(46)"/>
+  <use xlink:href="#h" transform="translate(437 538) rotate(26)"/>
+  <use xlink:href="#h" transform="translate(318 523) rotate(60)"/>
+  <use xlink:href="#h" transform="translate(556 380) rotate(33)"/>
+  <use xlink:href="#h" transform="translate(400 453) rotate(52)"/>
+  <use xlink:href="#h" transform="translate(370 538) rotate(14)"/>
+  <use xlink:href="#h" transform="translate(400 336) rotate(30)"/>
+  <use xlink:href="#h" transform="translate(446 471) rotate(22)"/>
+  <use xlink:href="#h" transform="translate(556 425) rotate(0)"/>
+  <!-- barbunya -->
+  <use xlink:href="#b" transform="translate(301 284) rotate(173) scale(1.25)"/>
+  <use xlink:href="#b" transform="translate(529 331) rotate(91) scale(1.25)"/>
+  <use xlink:href="#b" transform="translate(507 400) rotate(-53) scale(1.25)"/>
+  <use xlink:href="#b" transform="translate(403 498) rotate(113) scale(1.25)"/>
+  <use xlink:href="#b" transform="translate(343 417) rotate(19) scale(1.25)"/>
+  <use xlink:href="#b" transform="translate(477 500) rotate(-109) scale(1.25)"/>
+  <use xlink:href="#b" transform="translate(352 332) rotate(173) scale(1.25)"/>
+  <use xlink:href="#b" transform="translate(267 459) rotate(-45) scale(1.25)"/>
+  <use xlink:href="#b" transform="translate(267 396) rotate(-151) scale(1.25)"/>
+  <use xlink:href="#b" transform="translate(458 290) rotate(-88) scale(1.25)"/>
+  <use xlink:href="#b" transform="translate(444 349) rotate(92) scale(1.25)"/>
+  <use xlink:href="#b" transform="translate(430 234) rotate(4) scale(1.25)"/>
+  <use xlink:href="#b" transform="translate(324 477) rotate(-163) scale(1.25)"/>
+  <use xlink:href="#b" transform="translate(340 234) rotate(-9) scale(1.25)"/>
+  <use xlink:href="#b" transform="translate(411 408) rotate(58) scale(1.25)"/>
+  <use xlink:href="#b" transform="translate(522 458) rotate(158) scale(1.25)"/>
+  <use xlink:href="#b" transform="translate(258 328) rotate(154) scale(1.25)"/>
+  <use xlink:href="#b" transform="translate(393 284) rotate(-152) scale(1.25)"/>
+  <use xlink:href="#b" transform="translate(517 271) rotate(177) scale(1.25)"/>
+  <!-- maydanoz -->
+  <use xlink:href="#m" transform="translate(370 441) rotate(153)"/>
+  <use xlink:href="#m" transform="translate(476 464) rotate(96)"/>
+  <use xlink:href="#m" transform="translate(430 312) rotate(117)"/>
+  <use xlink:href="#m" transform="translate(493 331) rotate(-53)"/>
+  <use xlink:href="#m" transform="translate(296 323) rotate(-133)"/>
+  <use xlink:href="#m" transform="translate(310 433) rotate(14)"/>
+  <use xlink:href="#m" transform="translate(468 380) rotate(-129)"/>
+  <use xlink:href="#m" transform="translate(227 393) rotate(65)"/>
+  <use xlink:href="#m" transform="translate(296 368) rotate(-166)"/>
+  <use xlink:href="#m" transform="translate(319 317) rotate(-2)"/>
+  <use xlink:href="#m" transform="translate(508 360) rotate(25)"/>
+  <use xlink:href="#m" transform="translate(476 235) rotate(-114)"/>
+  <use xlink:href="#m" transform="translate(306 345) rotate(85)"/>
+  <use xlink:href="#m" transform="translate(372 389) rotate(-148)"/>
+  <use xlink:href="#m" transform="translate(359 270) rotate(93)"/>
+  <use xlink:href="#m" transform="translate(342 511) rotate(39)"/>
+  <!-- parlama -->
+  <path d="M176 300a236 236 0 0 1 90-128" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" opacity=".9"/>
+</svg>
