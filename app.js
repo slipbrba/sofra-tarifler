@@ -10,6 +10,7 @@ const ICON = {
   back: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>',
   shuffle: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8 8 0 0 0-14.500-4.500L4 8M4 4v4h4M4 13a8 8 0 0 0 14.500 4.500L20 16M20 20v-4h-4"/></svg>',
   book: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.500A2.500 2.500 0 0 1 6.500 3H20v15H6.500A2.500 2.500 0 0 0 4 20.500zM4 20.500A2.500 2.500 0 0 0 6.500 21H20"/></svg>',
+  basket: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h18l-1.800 9.200A2 2 0 0 1 17.200 21H6.800a2 2 0 0 1-2-1.800zM7.500 10l3-6M16.500 10l-3-6M9 14v3M15 14v3"/></svg>',
   check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"/></svg>',
 };
 
@@ -18,6 +19,8 @@ const esc = (s) => String(s).replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`)
 const lower = (s) => String(s).toLocaleLowerCase('tr');
 
 let recipes = [];
+let pantry = [];   // [{ group, items: [[id, ad], ...] }]
+let ingName = {};
 let byId = {};
 let contentVersion = 0;
 
@@ -27,6 +30,7 @@ const store = (() => {
   try { s = JSON.parse(localStorage.getItem('sofra')) || {}; } catch (e) { /* ilk açılış */ }
   s.shown = s.shown || {};    // { 'YYYY-MM-DD': [id, ...] } son günlerde önerilenler
   s.cooked = s.cooked || {};  // { id: 'YYYY-MM-DD' } en son pişirme günü
+  s.have = s.have || [];      // "Elimde ne var?" ekranında seçili malzemeler
   return { s, save() { try { localStorage.setItem('sofra', JSON.stringify(s)); } catch (e) { /* yoksay */ } } };
 })();
 
@@ -128,6 +132,7 @@ function renderHome(reroll) {
           </span>
         </button>`).join('') || '<p class="empty">Henüz tarif yok.</p>'}
     </div>
+    <button class="btn primary have-btn" data-go="#/dolap">${ICON.basket}Elimdekilerle ne pişer?</button>
     <div class="home-actions">
       <button class="btn" id="reroll">${ICON.shuffle}Başka öner</button>
       <button class="btn" data-go="#/tum">${ICON.book}Tüm tarifler</button>
@@ -213,6 +218,80 @@ function renderGrid() {
     </button>`).join('') || '<p class="empty">Buna uyan tarif yok.</p>';
 }
 
+// ---- Elimde ne var? ------------------------------------------------------
+function renderPantry() {
+  const have = new Set(store.s.have);
+  $('pantry').innerHTML = `
+    <div class="bar">
+      <button class="round" data-back aria-label="Geri">${ICON.back}</button>
+      <h1>Elimde ne var?</h1>
+      <button class="link" id="clear" ${have.size ? '' : 'hidden'}>Temizle</button>
+    </div>
+    <p class="hint">Elindeki malzemelere dokun. Soğan, sarımsak, salça, zeytinyağı, un ve baharatlar evde var sayılır.</p>
+    ${pantry.map((g) => `
+      <h3 class="group">${esc(g.group)}</h3>
+      <div class="chips wrap">
+        ${g.items.map(([id, name]) => `<button class="chip ${have.has(id) ? 'on' : ''}" data-ing="${esc(id)}">${esc(name)}</button>`).join('')}
+      </div>`).join('')}
+    <div id="matches"></div>`;
+  $('pantry').querySelectorAll('[data-ing]').forEach((c) => {
+    c.onclick = () => {
+      const id = c.dataset.ing;
+      const i = store.s.have.indexOf(id);
+      if (i >= 0) store.s.have.splice(i, 1); else store.s.have.push(id);
+      store.save();
+      c.classList.toggle('on', i < 0);
+      $('clear').hidden = !store.s.have.length;
+      renderMatches();
+    };
+  });
+  $('clear').onclick = () => {
+    store.s.have = [];
+    store.save();
+    renderPantry();
+  };
+  renderMatches();
+}
+
+const SHOW_FIRST = 6;          // eksikli bölümlerde önce bu kadarı gösterilir
+const expanded = new Set();
+
+function renderMatches() {
+  const have = new Set(store.s.have);
+  const box = $('matches');
+  if (!have.size) { box.innerHTML = '<p class="empty">Malzeme seçince yapabileceğin yemekler burada çıkar.</p>'; return; }
+  const scored = recipes
+    .filter((r) => Array.isArray(r.main) && r.main.length)
+    .map((r) => ({ r, used: r.main.filter((k) => have.has(k)), miss: r.main.filter((k) => !have.has(k)) }))
+    .filter((x) => x.used.length && x.miss.length <= 2)
+    .sort((a, b) => a.miss.length - b.miss.length || b.used.length - a.used.length || a.r.time - b.r.time);
+  const sections = [
+    ['Hemen yapabileceklerin', scored.filter((x) => !x.miss.length)],
+    ['Bir malzeme eksik', scored.filter((x) => x.miss.length === 1)],
+    ['İki malzeme eksik', scored.filter((x) => x.miss.length === 2)],
+  ].filter(([, list]) => list.length);
+  const cut = (title, list) => (title === sections[0][0] && !list[0].miss.length) || expanded.has(title)
+    ? list : list.slice(0, SHOW_FIRST);
+  const names = (ids) => ids.map((k) => ingName[k] || k).join(', ');
+  box.innerHTML = sections.map(([title, list]) => `
+    <h3 class="group">${esc(title)} <small>${list.length}</small></h3>
+    <div class="grid">${cut(title, list).map(({ r, used, miss }) => `
+      <button class="tile" data-open="${esc(r.id)}">
+        <span class="ph">${img(r)}</span>
+        <b>${esc(r.name)}</b>
+        ${miss.length
+          ? `<small class="miss">Eksik: ${esc(names(miss))}</small>`
+          : `<small class="ok">${ICON.check}${esc(names(used))}</small>`}
+      </button>`).join('')}
+    </div>
+    ${cut(title, list).length < list.length
+      ? `<button class="btn more" data-more="${esc(title)}">Tümünü göster (${list.length})</button>` : ''}`).join('')
+    || '<p class="empty">Bu malzemelerle uyan tarif yok. Birkaç malzeme daha seç.</p>';
+  box.querySelectorAll('[data-more]').forEach((b) => {
+    b.onclick = () => { expanded.add(b.dataset.more); renderMatches(); };
+  });
+}
+
 // ---- Gezinme --------------------------------------------------------------
 let depth = 0; // uygulama içinde kaç adım ilerlendi (geri tuşu için)
 const scrollPos = {};
@@ -223,14 +302,17 @@ function route() {
   if (current) scrollPos[current] = window.scrollY;
   const m = hash.match(/^#\/tarif\/(.+)$/);
   const r = m && byId[decodeURIComponent(m[1])];
-  const view = r ? 'recipe' : hash === '#/tum' ? 'all' : 'home';
+  const view = r ? 'recipe' : hash === '#/tum' ? 'all' : hash === '#/dolap' ? 'pantry' : 'home';
 
   if (view === 'recipe') renderRecipe(r);
   else if (view === 'all') { if (current !== '#/tum' && !$('grid')) renderAll(); }
+  else if (view === 'pantry') renderPantry();
   else renderHome(false);
 
-  for (const id of ['home', 'recipe', 'all']) $(id).hidden = id !== view;
-  window.scrollTo(0, view === 'all' ? (scrollPos[hash] || 0) : 0);
+  for (const id of ['home', 'recipe', 'all', 'pantry']) $(id).hidden = id !== view;
+  // Tariften geri dönünce listede kalınan yere dön; başka yerden gelince en üstten başla.
+  const returning = current.startsWith('#/tarif/');
+  window.scrollTo(0, (view === 'all' || (view === 'pantry' && returning)) ? (scrollPos[hash] || 0) : 0);
   current = hash;
   if (window.Android) window.Android.keepAwake(view === 'recipe');
 }
@@ -263,6 +345,8 @@ async function load() {
   const data = await res.json();
   recipes = data.recipes.filter((r) => r && r.id && r.name && Array.isArray(r.ingredients) && Array.isArray(r.steps));
   byId = Object.fromEntries(recipes.map((r) => [r.id, r]));
+  pantry = Array.isArray(data.pantry) ? data.pantry : [];
+  ingName = Object.fromEntries(pantry.flatMap((g) => g.items));
   const grew = contentVersion && data.version > contentVersion;
   contentVersion = data.version || 0;
   return grew;

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800">
+  <defs>
+    <g id="mantar" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <path d="M-30 2C-30 -22 -16 -30 0 -30S30 -22 30 2z" fill="#E7D3B0"/>
+      <rect x="-9" y="0" width="18" height="24" rx="6" fill="#F4E9D2"/>
+      <path d="M-18 -4C-12 -16 12 -16 18 -4" fill="none" stroke="#C9A779" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <g id="et" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <rect x="-26" y="-22" width="52" height="44" rx="14" fill="#8C4A2C"/>
+      <path d="M-14 -10h20" stroke="#B36A42" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <g id="kiyma" fill="#8A4A2B" stroke="#3B3A30" stroke-width="3">
+      <circle r="8"/><circle cx="13" cy="5" r="6"/><circle cx="-10" cy="8" r="6"/>
+    </g>
+    <g id="kofte" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <rect x="-40" y="-17" width="80" height="34" rx="17" fill="#8C4A2C"/>
+      <path d="M-24 -6h30" stroke="#B36A42" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <g id="patates" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <rect x="-28" y="-25" width="56" height="50" rx="14" fill="#F4D27A"/>
+      <path d="M-16 -11h18" stroke="#FBE6A8" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <g id="kabak" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <path d="M-28 4A28 28 0 0 1 28 4z" fill="#DCE8A6"/>
+      <path d="M-22 0A22 22 0 0 1 22 0" fill="none" stroke="#7FA650" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <g id="patlican" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <rect x="-26" y="-24" width="52" height="48" rx="13" fill="#E7C98A"/>
+      <path d="M-22 -15v30" stroke="#5B3A6E" stroke-width="9" stroke-linecap="round"/>
+    </g>
+    <g id="tavuk" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <rect x="-24" y="-20" width="48" height="40" rx="13" fill="#EBC79A"/>
+      <path d="M-12 -8h16" stroke="#F6E2C4" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <rect id="biber" x="-18" y="-7" width="36" height="14" rx="7" fill="#6FA046" stroke="#3B3A30" stroke-width="5"/>
+    <rect id="kbiber" x="-18" y="-7" width="36" height="14" rx="7" fill="#D9473A" stroke="#3B3A30" stroke-width="5"/>
+    <circle id="domates" r="14" fill="#D8452E" stroke="#3B3A30" stroke-width="5"/>
+  </defs>
+  <rect width="800" height="800" fill="#ECE6DA"/>
+  <g fill="#DDD5C5"><circle cx="90" cy="110" r="10"/><circle cx="700" cy="90" r="10"/><circle cx="730" cy="650" r="10"/><circle cx="80" cy="690" r="10"/><circle cx="400" cy="60" r="10"/><circle cx="60" cy="400" r="10"/><circle cx="745" cy="380" r="10"/><circle cx="410" cy="748" r="10"/></g>
+  <circle cx="400" cy="414" r="300" fill="#00000012"/>
+  <circle cx="400" cy="400" r="300" fill="#FFFDF6" stroke="#3B3A30" stroke-width="7"/>
+  <circle cx="400" cy="410" r="232" fill="#00000014"/>
+  <circle cx="400" cy="400" r="232" fill="#8C6A4E" stroke="#3B3A30" stroke-width="7"/>
+  <circle cx="400" cy="400" r="196" fill="#FFFDF6" stroke="#3B3A30" stroke-width="5"/>
+  <circle cx="400" cy="404" r="180" fill="#D9C3A0"/>
+  <path d="M400 236c90 0 156 70 154 160s-70 156-158 156-154-70-150-160 68-156 154-156z" fill="#E6D3B4"/>
+  <use xlink:href="#mantar" transform="translate(416 512) rotate(-24)"/>
+  <use xlink:href="#mantar" transform="translate(408 423) rotate(-23)"/>
+  <use xlink:href="#mantar" transform="translate(325 420) rotate(23)"/>
+  <use xlink:href="#mantar" transform="translate(405 304) rotate(26)"/>
+  <use xlink:href="#mantar" transform="translate(484 435) rotate(8)"/>
+  <use xlink:href="#mantar" transform="translate(468 353) rotate(-14)"/>
+  <g fill="#6FA046"><circle cx="451" cy="511" r="4"/><circle cx="366" cy="458" r="4"/><circle cx="295" cy="407" r="4"/><circle cx="299" cy="413" r="4"/><circle cx="393" cy="475" r="4"/><circle cx="369" cy="320" r="4"/><circle cx="339" cy="281" r="4"/><circle cx="497" cy="291" r="4"/><circle cx="407" cy="473" r="4"/><circle cx="389" cy="287" r="4"/><circle cx="437" cy="518" r="4"/><circle cx="496" cy="302" r="4"/><circle cx="417" cy="480" r="4"/><circle cx="548" cy="406" r="4"/></g>
+  <g fill="#3B3A30"><circle cx="441" cy="435" r="3"/><circle cx="348" cy="364" r="3"/><circle cx="469" cy="476" r="3"/><circle cx="340" cy="434" r="3"/><circle cx="293" cy="487" r="3"/><circle cx="444" cy="448" r="3"/><circle cx="472" cy="413" r="3"/><circle cx="523" cy="484" r="3"/></g>
+</svg>

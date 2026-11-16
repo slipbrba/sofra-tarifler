@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800">
+  <defs>
+    <g id="mantar" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <path d="M-30 2C-30 -22 -16 -30 0 -30S30 -22 30 2z" fill="#E7D3B0"/>
+      <rect x="-9" y="0" width="18" height="24" rx="6" fill="#F4E9D2"/>
+      <path d="M-18 -4C-12 -16 12 -16 18 -4" fill="none" stroke="#C9A779" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <g id="et" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <rect x="-26" y="-22" width="52" height="44" rx="14" fill="#8C4A2C"/>
+      <path d="M-14 -10h20" stroke="#B36A42" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <g id="kiyma" fill="#8A4A2B" stroke="#3B3A30" stroke-width="3">
+      <circle r="8"/><circle cx="13" cy="5" r="6"/><circle cx="-10" cy="8" r="6"/>
+    </g>
+    <g id="kofte" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <rect x="-40" y="-17" width="80" height="34" rx="17" fill="#8C4A2C"/>
+      <path d="M-24 -6h30" stroke="#B36A42" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <g id="patates" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <rect x="-28" y="-25" width="56" height="50" rx="14" fill="#F4D27A"/>
+      <path d="M-16 -11h18" stroke="#FBE6A8" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <g id="kabak" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <path d="M-28 4A28 28 0 0 1 28 4z" fill="#DCE8A6"/>
+      <path d="M-22 0A22 22 0 0 1 22 0" fill="none" stroke="#7FA650" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <g id="patlican" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <rect x="-26" y="-24" width="52" height="48" rx="13" fill="#E7C98A"/>
+      <path d="M-22 -15v30" stroke="#5B3A6E" stroke-width="9" stroke-linecap="round"/>
+    </g>
+    <g id="tavuk" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <rect x="-24" y="-20" width="48" height="40" rx="13" fill="#EBC79A"/>
+      <path d="M-12 -8h16" stroke="#F6E2C4" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <rect id="biber" x="-18" y="-7" width="36" height="14" rx="7" fill="#6FA046" stroke="#3B3A30" stroke-width="5"/>
+    <rect id="kbiber" x="-18" y="-7" width="36" height="14" rx="7" fill="#D9473A" stroke="#3B3A30" stroke-width="5"/>
+    <circle id="domates" r="14" fill="#D8452E" stroke="#3B3A30" stroke-width="5"/>
+  </defs>
+  <rect width="800" height="800" fill="#F3E6D0"/>
+  <g fill="#E6D3B6"><circle cx="90" cy="110" r="10"/><circle cx="700" cy="90" r="10"/><circle cx="730" cy="650" r="10"/><circle cx="80" cy="690" r="10"/><circle cx="400" cy="60" r="10"/><circle cx="60" cy="400" r="10"/><circle cx="745" cy="380" r="10"/><circle cx="410" cy="748" r="10"/></g>
+  <rect x="124" y="176" width="560" height="452" rx="46" fill="#00000014"/>
+  <g stroke="#3B3A30" stroke-width="7" stroke-linejoin="round">
+    <rect x="96" y="326" width="52" height="108" rx="18" fill="#3F7FAE"/>
+    <rect x="652" y="326" width="52" height="108" rx="18" fill="#3F7FAE"/>
+    <rect x="124" y="156" width="552" height="448" rx="46" fill="#3F7FAE"/>
+    <rect x="152" y="184" width="496" height="392" rx="28" fill="#F3EEDD" stroke-width="6"/>
+  </g>
+  <rect x="164" y="196" width="472" height="368" rx="22" fill="#C2552E"/>
+  <path d="M200 250c80-40 300-40 400 0v260c-100 40-320 40-400 0z" fill="#D86B38"/>
+  <use xlink:href="#kofte" transform="translate(444 275) rotate(22)"/>
+  <use xlink:href="#kofte" transform="translate(484 453) rotate(7)"/>
+  <use xlink:href="#kofte" transform="translate(389 396) rotate(22)"/>
+  <use xlink:href="#kofte" transform="translate(287 425) rotate(-28)"/>
+  <use xlink:href="#kofte" transform="translate(532 352) rotate(-15)"/>
+  <use xlink:href="#patates" transform="translate(314 325) rotate(27)"/>
+  <use xlink:href="#patates" transform="translate(406 511) rotate(37)"/>
+  <use xlink:href="#patates" transform="translate(231 329) rotate(-3)"/>
+  <use xlink:href="#patates" transform="translate(526 424) rotate(-5)"/>
+  <use xlink:href="#patates" transform="translate(481 481) rotate(37)"/>
+  <use xlink:href="#patates" transform="translate(338 322) rotate(-32)"/>
+  <use xlink:href="#biber" transform="translate(314 496) rotate(5)"/>
+  <use xlink:href="#biber" transform="translate(591 420) rotate(-34)"/>
+  <use xlink:href="#biber" transform="translate(347 242) rotate(7)"/>
+  <use xlink:href="#biber" transform="translate(197 407) rotate(6)"/>
+  <use xlink:href="#domates" transform="translate(269 501) rotate(-21)"/>
+  <use xlink:href="#domates" transform="translate(280 272) rotate(-25)"/>
+  <use xlink:href="#domates" transform="translate(527 278) rotate(-22)"/>
+  <use xlink:href="#domates" transform="translate(610 366) rotate(33)"/>
+</svg>

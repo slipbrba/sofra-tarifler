@@ -1,5 +1,143 @@
 {
-  "version": 5,
+  "version": 6,
+  "pantry": [
+    {
+      "group": "Sebzeler",
+      "items": [
+        [
+          "kabak",
+          "Kabak"
+        ],
+        [
+          "patlican",
+          "Patlıcan"
+        ],
+        [
+          "biber",
+          "Biber"
+        ],
+        [
+          "domates",
+          "Domates"
+        ],
+        [
+          "mantar",
+          "Mantar"
+        ],
+        [
+          "patates",
+          "Patates"
+        ],
+        [
+          "havuc",
+          "Havuç"
+        ],
+        [
+          "ispanak",
+          "Ispanak"
+        ],
+        [
+          "pirasa",
+          "Pırasa"
+        ],
+        [
+          "karnabahar",
+          "Karnabahar"
+        ],
+        [
+          "lahana",
+          "Lahana"
+        ],
+        [
+          "bezelye",
+          "Bezelye"
+        ],
+        [
+          "taze-fasulye",
+          "Taze fasulye"
+        ],
+        [
+          "bamya",
+          "Bamya"
+        ],
+        [
+          "semizotu",
+          "Semizotu"
+        ]
+      ]
+    },
+    {
+      "group": "Et, tavuk, yumurta",
+      "items": [
+        [
+          "kirmizi-et",
+          "Kırmızı et"
+        ],
+        [
+          "kiyma",
+          "Kıyma"
+        ],
+        [
+          "tavuk",
+          "Tavuk"
+        ],
+        [
+          "yumurta",
+          "Yumurta"
+        ]
+      ]
+    },
+    {
+      "group": "Bakliyat ve tahıl",
+      "items": [
+        [
+          "nohut",
+          "Nohut"
+        ],
+        [
+          "kuru-fasulye",
+          "Kuru fasulye"
+        ],
+        [
+          "barbunya",
+          "Barbunya"
+        ],
+        [
+          "yesil-mercimek",
+          "Yeşil mercimek"
+        ],
+        [
+          "kirmizi-mercimek",
+          "Kırmızı mercimek"
+        ],
+        [
+          "pirinc",
+          "Pirinç"
+        ],
+        [
+          "bulgur",
+          "Bulgur"
+        ],
+        [
+          "sehriye",
+          "Şehriye"
+        ]
+      ]
+    },
+    {
+      "group": "Süt ürünleri",
+      "items": [
+        [
+          "sut",
+          "Süt"
+        ],
+        [
+          "kasar",
+          "Kaşar"
+        ]
+      ]
+    }
+  ],
   "recipes": [
     {
       "id": "kabak-yemegi",
@@ -9,6 +147,11 @@
       "servings": 4,
       "summary": "Zeytinyağında kavrulmuş kabak, biber ve domatesle az pirinçli, sulu ev yemeği.",
       "image": "kabak-yemegi.svg",
+      "main": [
+        "kabak",
+        "biber",
+        "domates"
+      ],
       "ingredients": [
         "3-4 adet kabak",
         "1 adet kuru soğan",
@@ -42,6 +185,10 @@
       "servings": 2,
       "summary": "Biberle kavrulmuş mantarın üzerine sarımsaklı yoğurt; 20 dakikada hazır.",
       "image": "mantar-kavurma.svg",
+      "main": [
+        "mantar",
+        "biber"
+      ],
       "ingredients": [
         "500 g kültür mantarı",
         "3 adet sivri biber",
@@ -69,6 +216,11 @@
       "servings": 4,
       "summary": "Biber, domates ve salçayla tavada pişen, sulu ve pratik tavuk sote.",
       "image": "tavuk-sote.svg",
+      "main": [
+        "tavuk",
+        "biber",
+        "domates"
+      ],
       "ingredients": [
         "500 g tavuk göğsü ya da but",
         "1 adet kuru soğan",
@@ -100,6 +252,11 @@
       "servings": 4,
       "summary": "Domatesle ağır ateşte pişen, ılık ya da soğuk yenen klasik zeytinyağlı fasulye.",
       "image": "taze-fasulye.svg",
+      "main": [
+        "taze-fasulye",
+        "biber",
+        "domates"
+      ],
       "ingredients": [
         "500 g taze fasulye",
         "1 adet kuru soğan",
@@ -129,6 +286,15 @@
       "servings": 6,
       "summary": "Patlıcan, kabak, patates ve fasulyenin salçalı sosta buluştuğu bol sebzeli tencere.",
       "image": "turlu.svg",
+      "main": [
+        "patlican",
+        "kabak",
+        "patates",
+        "havuc",
+        "taze-fasulye",
+        "biber",
+        "domates"
+      ],
       "ingredients": [
         "1 adet patlıcan",
         "2 adet kabak",
@@ -164,6 +330,12 @@
       "servings": 4,
       "summary": "Fırında zeytinyağıyla kızartılmış patlıcan ve kıymalı domates sosuyla ev musakkası.",
       "image": "patlican-musakka.svg",
+      "main": [
+        "patlican",
+        "kiyma",
+        "biber",
+        "domates"
+      ],
       "ingredients": [
         "3 adet patlıcan (yaklaşık 750 g)",
         "250 g kıyma",
@@ -195,6 +367,11 @@
       "servings": 4,
       "summary": "Salçalı, sulu ve doyurucu klasik nohut yemeği; pilavın en iyi eşlikçisi.",
       "image": "nohut-yemegi.svg",
+      "main": [
+        "nohut",
+        "biber",
+        "domates"
+      ],
       "ingredients": [
         "2 su bardağı kuru nohut (ya da yaklaşık 700 g haşlanmış/kavanoz nohut)",
         "1 adet kuru soğan",
@@ -224,6 +401,11 @@
       "servings": 4,
       "summary": "Salçalı sosta ağır ağır pişen, kıvamlı ve sade zeytinyağlı kuru fasulye.",
       "image": "kuru-fasulye.svg",
+      "main": [
+        "kuru-fasulye",
+        "biber",
+        "domates"
+      ],
       "ingredients": [
         "2 su bardağı kuru fasulye (ya da 2 kavanoz/yaklaşık 700 g haşlanmış fasulye)",
         "1 adet kuru soğan",
@@ -253,6 +435,11 @@
       "servings": 4,
       "summary": "Az pirinçli, salçalı ve sulu; ucuz, doyurucu bir kış tenceresi.",
       "image": "yesil-mercimek.svg",
+      "main": [
+        "yesil-mercimek",
+        "biber",
+        "domates"
+      ],
       "ingredients": [
         "1,5 su bardağı yeşil mercimek",
         "2 yemek kaşığı pirinç",
@@ -284,6 +471,13 @@
       "servings": 4,
       "summary": "Patates ve havuçla salçalı sosta pişen, renkli ve sulu bezelye yemeği.",
       "image": "bezelye-yemegi.svg",
+      "main": [
+        "bezelye",
+        "patates",
+        "havuc",
+        "biber",
+        "domates"
+      ],
       "ingredients": [
         "500 g bezelye (taze ya da dondurulmuş)",
         "2 adet patates",
@@ -315,6 +509,11 @@
       "servings": 4,
       "summary": "Salçalı, az pirinçli ıspanak; üzerine sarımsaklı yoğurtla bir harika.",
       "image": "ispanak-yemegi.svg",
+      "main": [
+        "ispanak",
+        "biber",
+        "domates"
+      ],
       "ingredients": [
         "1 kg ıspanak",
         "1 adet kuru soğan",
@@ -345,6 +544,10 @@
       "servings": 4,
       "summary": "Havuç ve az pirinçle pişen, limonla soğuk servis edilen hafif pırasa.",
       "image": "pirasa-yemegi.svg",
+      "main": [
+        "pirasa",
+        "havuc"
+      ],
       "ingredients": [
         "1 kg pırasa",
         "1 adet havuç",
@@ -373,6 +576,11 @@
       "servings": 4,
       "summary": "Küçük çiçeklere ayrılmış karnabaharın salçalı domatesli sosta yumuşadığı ev yemeği.",
       "image": "karnabahar-yemegi.svg",
+      "main": [
+        "karnabahar",
+        "biber",
+        "domates"
+      ],
       "ingredients": [
         "1 orta boy karnabahar (yaklaşık 1 kg)",
         "1 adet kuru soğan",
@@ -402,6 +610,11 @@
       "servings": 4,
       "summary": "Salçalı, kekikli, bol sulu tencere patatesi; ekmek bandırmalık.",
       "image": "patates-yemegi.svg",
+      "main": [
+        "patates",
+        "biber",
+        "domates"
+      ],
       "ingredients": [
         "5 adet orta boy patates",
         "1 adet kuru soğan",
@@ -432,6 +645,11 @@
       "servings": 2,
       "summary": "Zeytinyağında biber ve domatesle pişen sulu, yumuşak kıvamlı menemen.",
       "image": "menemen.svg",
+      "main": [
+        "yumurta",
+        "biber",
+        "domates"
+      ],
       "ingredients": [
         "4 adet yumurta",
         "4 adet sivri biber",
@@ -459,6 +677,11 @@
       "servings": 4,
       "summary": "Salça, biber ve domatesle tane tane pişen, her sebze yemeğine eşlik eden pilav.",
       "image": "bulgur-pilavi.svg",
+      "main": [
+        "bulgur",
+        "biber",
+        "domates"
+      ],
       "ingredients": [
         "1,5 su bardağı pilavlık (iri) bulgur",
         "1 adet kuru soğan",
@@ -489,6 +712,12 @@
       "servings": 4,
       "summary": "Fırınlanmış patlıcan, kabak ve biberin sarımsaklı domates sosuyla buluştuğu meze.",
       "image": "saksuka.svg",
+      "main": [
+        "patlican",
+        "kabak",
+        "biber",
+        "domates"
+      ],
       "ingredients": [
         "2 adet patlıcan",
         "1 adet kabak",
@@ -519,6 +748,11 @@
       "servings": 4,
       "summary": "Limonla salyası kesilmiş bamyanın salçalı domates sosunda pişen sade hali.",
       "image": "bamya-yemegi.svg",
+      "main": [
+        "bamya",
+        "biber",
+        "domates"
+      ],
       "ingredients": [
         "500 g taze bamya (ya da dondurulmuş)",
         "1 adet kuru soğan",
@@ -550,6 +784,11 @@
       "servings": 6,
       "summary": "Havuç ve patatesle kıvam bulan, limonla servis edilen klasik mercimek çorbası.",
       "image": "mercimek-corbasi.svg",
+      "main": [
+        "kirmizi-mercimek",
+        "havuc",
+        "patates"
+      ],
       "ingredients": [
         "1 su bardağı kırmızı mercimek",
         "1 adet kuru soğan",
@@ -581,6 +820,12 @@
       "servings": 4,
       "summary": "Havuç, patates ve domatesle pişen, soğuk servis edilen zeytinyağlı barbunya.",
       "image": "barbunya-pilaki.svg",
+      "main": [
+        "barbunya",
+        "havuc",
+        "patates",
+        "domates"
+      ],
       "ingredients": [
         "1,5 su bardağı kuru barbunya (ya da 2 kavanoz/yaklaşık 700 g haşlanmış barbunya)",
         "1 adet kuru soğan",
@@ -613,6 +858,11 @@
       "servings": 4,
       "summary": "İnce doğranmış lahananın salçalı sosta az pirinçle yumuşadığı kış yemeği.",
       "image": "kapuska.svg",
+      "main": [
+        "lahana",
+        "biber",
+        "domates"
+      ],
       "ingredients": [
         "1 küçük beyaz lahana (yaklaşık 1 kg)",
         "1 adet kuru soğan",
@@ -643,6 +893,11 @@
       "servings": 2,
       "summary": "Tavada kavrulan ıspanağın üzerinde pişen yumurta; hızlı ve doyurucu.",
       "image": "ispanakli-yumurta.svg",
+      "main": [
+        "ispanak",
+        "biber",
+        "yumurta"
+      ],
       "ingredients": [
         "500 g ıspanak",
         "1 adet kuru soğan",
@@ -671,6 +926,13 @@
       "servings": 4,
       "summary": "Salçalı sosa bulanmış tavuk but ve sebzelerin tek tepside piştiği fırın yemeği.",
       "image": "firinda-sebzeli-tavuk.svg",
+      "main": [
+        "tavuk",
+        "patates",
+        "kabak",
+        "biber",
+        "domates"
+      ],
       "ingredients": [
         "1 kg kemikli tavuk but ya da baget",
         "3 adet patates",
@@ -705,6 +967,10 @@
       "servings": 4,
       "summary": "Dereotlu kabak harcının tavada az zeytinyağıyla kızartıldığı çıtır mücver.",
       "image": "kabak-mucver.svg",
+      "main": [
+        "kabak",
+        "yumurta"
+      ],
       "ingredients": [
         "3 adet kabak",
         "1 adet kuru soğan (ya da 3-4 dal yeşil soğan)",
@@ -734,6 +1000,13 @@
       "servings": 4,
       "summary": "Zeytinyağında sotelenmiş tavuk ve kabak, zeytinyağlı beşamel ve kaşarla fırında kızarır.",
       "image": "tavuklu-kabak-graten.svg",
+      "main": [
+        "tavuk",
+        "kabak",
+        "biber",
+        "sut",
+        "kasar"
+      ],
       "ingredients": [
         "2 adet tavuk göğsü (yaklaşık 500 g)",
         "3 adet kabak",
@@ -771,6 +1044,11 @@
       "servings": 4,
       "summary": "Zeytinyağında soğan, biber ve salçayla pişen az pirinçli semizotu; sarımsaklı yoğurtla.",
       "image": "semizotu-yemegi.svg",
+      "main": [
+        "semizotu",
+        "biber",
+        "domates"
+      ],
       "ingredients": [
         "1 büyük demet semizotu (yaklaşık 500 g)",
         "1 adet kuru soğan",
@@ -804,6 +1082,9 @@
       "servings": 6,
       "summary": "Kırmızı mercimek, bulgur ve pirinçle salçalı, naneli, doyurucu çorba.",
       "image": "ezogelin-corbasi.svg",
+      "main": [
+        "kirmizi-mercimek"
+      ],
       "ingredients": [
         "1 su bardağı kırmızı mercimek",
         "2 yemek kaşığı pirinç",
@@ -834,6 +1115,12 @@
       "servings": 4,
       "summary": "Zeytinyağında kavrulan kıyma ile salçalı, domatesli, küp patatesli tencere yemeği.",
       "image": "kiymali-patates.svg",
+      "main": [
+        "kiyma",
+        "patates",
+        "biber",
+        "domates"
+      ],
       "ingredients": [
         "250 g kıyma",
         "4 adet orta boy patates",
@@ -866,6 +1153,11 @@
       "servings": 3,
       "summary": "Küp patlıcan, biber ve domatesin zeytinyağında tavada kavrulduğu pratik yemek; sarımsaklı yoğurtla.",
       "image": "patlican-kavurma.svg",
+      "main": [
+        "patlican",
+        "biber",
+        "domates"
+      ],
       "ingredients": [
         "3 adet patlıcan",
         "2 adet sivri biber",
@@ -896,6 +1188,10 @@
       "servings": 4,
       "summary": "Zeytinyağında kavrulmuş arpa şehriye ile tane tane pirinç pilavı.",
       "image": "sehriyeli-pilav.svg",
+      "main": [
+        "pirinc",
+        "sehriye"
+      ],
       "ingredients": [
         "2 su bardağı baldo pirinç",
         "3 yemek kaşığı arpa şehriye",
@@ -911,6 +1207,373 @@
         "Ocaktan alıp kapakla tencerenin arasına kağıt havlu koyun, 10 dakika demlendirin, sonra karıştırın."
       ],
       "tip": "Kıymalı patates, kuru fasulye ya da nohut yemeğinin yanına birebir."
+    },
+    {
+      "id": "mantarli-et-sote",
+      "name": "Mantarlı Et Sote",
+      "category": "et",
+      "time": 60,
+      "servings": 4,
+      "summary": "Kuşbaşı et, mantar, biber ve domatesin zeytinyağında salçayla pişen sulu sotesi.",
+      "image": "mantarli-et-sote.svg",
+      "main": [
+        "kirmizi-et",
+        "mantar",
+        "biber",
+        "domates"
+      ],
+      "ingredients": [
+        "500 g kuşbaşı dana eti",
+        "250 g kültür mantarı",
+        "1 adet kuru soğan",
+        "3 adet sivri biber",
+        "2 adet domates",
+        "2 diş sarımsak",
+        "1 yemek kaşığı domates salçası",
+        "3 yemek kaşığı zeytinyağı",
+        "1 tatlı kaşığı tuz",
+        "1/2 çay kaşığı karabiber",
+        "1 çay kaşığı kırmızı toz biber",
+        "1/2 çay kaşığı kekik",
+        "1 su bardağı sıcak su"
+      ],
+      "steps": [
+        "Mantarları dörde, soğanı ve biberleri ince, domatesleri küçük küp doğrayın.",
+        "Tencerede zeytinyağını kızdırın, etleri yüksek ateşte önce suyunu salıp sonra çekene kadar 8-10 dakika kavurun.",
+        "Soğanı ekleyip 3 dakika, sarımsağı ekleyip 1 dakika daha kavurun. Salçayı ekleyip 1 dakika çevirin.",
+        "Sıcak suyu ekleyin, kapağı kapalı kısık ateşte et yumuşayana kadar 30 dakika pişirin.",
+        "Başka bir tavada mantarları yüksek ateşte suyunu çekene kadar 5 dakika soteleyin.",
+        "Mantarları, biberleri ve domatesleri tencereye ekleyin; tuz ve baharatları katıp 8-10 dakika daha pişirin."
+      ],
+      "tip": "Et kavrulurken tencereyi kalabalık etmeyin; gerekirse iki seferde kavurun ki haşlanmasın, kızarsın."
+    },
+    {
+      "id": "tas-kebabi",
+      "name": "Tas Kebabı",
+      "category": "et",
+      "time": 80,
+      "servings": 4,
+      "summary": "Kısık ateşte salçayla ağır ağır pişen yumuşacık kuşbaşı et ve patates.",
+      "image": "tas-kebabi.svg",
+      "main": [
+        "kirmizi-et",
+        "patates",
+        "domates",
+        "biber"
+      ],
+      "ingredients": [
+        "500 g kuşbaşı dana eti",
+        "3 adet orta boy patates",
+        "1 adet kuru soğan",
+        "2 adet sivri biber",
+        "2 adet domates",
+        "1 yemek kaşığı domates salçası",
+        "3 yemek kaşığı zeytinyağı",
+        "1 tatlı kaşığı tuz",
+        "1/2 çay kaşığı karabiber",
+        "1/2 çay kaşığı kimyon",
+        "1/2 çay kaşığı kekik",
+        "2,5 su bardağı sıcak su"
+      ],
+      "steps": [
+        "Soğanı, biberi ve domatesi ince doğrayın. Patatesleri iri küp doğrayıp suda bekletin.",
+        "Zeytinyağında etleri suyunu çekip hafif renk alana kadar kavurun.",
+        "Soğanı ekleyip 4-5 dakika, biberi ekleyip 2 dakika kavurun. Salçayı ekleyip 1 dakika çevirin.",
+        "Domatesleri ve sıcak suyu ekleyin. Kapağı kapalı, kısık ateşte et yumuşayana kadar 45 dakika pişirin.",
+        "Süzülmüş patatesleri, tuzu ve baharatları ekleyin; patatesler pişene kadar 20 dakika daha pişirin."
+      ],
+      "tip": "Pilav ya da bulgur pilavının yanında, bol suyuyla servis edin."
+    },
+    {
+      "id": "firinda-etli-sebze",
+      "name": "Fırında Etli Sebze",
+      "category": "et",
+      "time": 90,
+      "servings": 4,
+      "summary": "Kuşbaşı et, kabak, patlıcan, patates, biber ve domatesin fırında birlikte piştiği güveç.",
+      "image": "firinda-etli-sebze.svg",
+      "main": [
+        "kirmizi-et",
+        "kabak",
+        "patlican",
+        "patates",
+        "biber",
+        "domates"
+      ],
+      "ingredients": [
+        "500 g kuşbaşı dana eti",
+        "1 adet kabak",
+        "1 adet patlıcan",
+        "2 adet patates",
+        "3 adet sivri biber",
+        "3 adet domates",
+        "1 adet kuru soğan",
+        "2 diş sarımsak",
+        "1 yemek kaşığı domates salçası",
+        "5 yemek kaşığı zeytinyağı",
+        "1 tatlı kaşığı tuz",
+        "1/2 çay kaşığı karabiber",
+        "1 çay kaşığı kırmızı toz biber",
+        "1/2 çay kaşığı kekik",
+        "1 su bardağı sıcak su"
+      ],
+      "steps": [
+        "Fırını 200 °C'ye ısıtın. Patlıcanı alacalı soyup küp doğrayın, tuzlu suda 15 dakika bekletip süzün.",
+        "Etleri 2 yemek kaşığı zeytinyağında suyunu çekene kadar kavurun, soğan ve sarımsağı ekleyip 3 dakika daha kavurun.",
+        "Kabak, patates ve biberleri iri küp, domateslerin ikisini küp doğrayın.",
+        "Salçayı sıcak suda eritin, kalan zeytinyağı, tuz ve baharatlarla karıştırın.",
+        "Fırın kabına eti ve tüm sebzeleri koyun, salçalı suyu döküp karıştırın. Son domatesi dilimleyip üstüne dizin.",
+        "Üstünü folyoyla kapatıp 45 dakika pişirin. Folyoyu açıp üstü kızarana kadar 20 dakika daha pişirin."
+      ],
+      "tip": "Eti bir gece önceden yoğurtla marine ederseniz daha da yumuşak olur."
+    },
+    {
+      "id": "kiymali-kabak",
+      "name": "Kıymalı Kabak Yemeği",
+      "category": "et",
+      "time": 40,
+      "servings": 4,
+      "summary": "Kıymayla kavrulmuş ince doğranmış kabak, biber ve domatesin salçalı tencere yemeği.",
+      "image": "kiymali-kabak.svg",
+      "main": [
+        "kiyma",
+        "kabak",
+        "biber",
+        "domates"
+      ],
+      "ingredients": [
+        "200 g kıyma",
+        "4 adet kabak",
+        "1 adet kuru soğan",
+        "2 adet sivri biber",
+        "2 adet domates",
+        "1 yemek kaşığı domates salçası",
+        "3 yemek kaşığı zeytinyağı",
+        "1 tatlı kaşığı tuz",
+        "1/2 çay kaşığı karabiber",
+        "1 çay kaşığı kırmızı toz biber",
+        "1/2 çay kaşığı kekik",
+        "1 su bardağı sıcak su",
+        "Yanına: 1 kase yoğurt"
+      ],
+      "steps": [
+        "Kabakları yarım ay, soğanı, biberi ve domatesi ince doğrayın.",
+        "Zeytinyağında soğanı 3 dakika kavurun, kıymayı ekleyip suyunu çekene kadar kavurun.",
+        "Biberleri ekleyip 2 dakika, salçayı ekleyip 1 dakika kavurun.",
+        "Domatesleri ekleyip 2-3 dakika pişirin, ardından kabakları ekleyip karıştırın.",
+        "Tuz, baharatlar ve sıcak suyu ekleyin. Kaynayınca kapağı kapalı kısık ateşte kabaklar yumuşayana kadar 20 dakika pişirin."
+      ],
+      "tip": "Kabak su saldığı için suyu az koyun; sarımsaklı yoğurtla çok yakışır."
+    },
+    {
+      "id": "kiymali-mantar",
+      "name": "Kıymalı Mantar Sote",
+      "category": "pratik",
+      "time": 25,
+      "servings": 3,
+      "summary": "Tavada kıyma, mantar, biber ve domatesle 25 dakikada hazır pratik yemek.",
+      "image": "kiymali-mantar.svg",
+      "main": [
+        "kiyma",
+        "mantar",
+        "biber",
+        "domates"
+      ],
+      "ingredients": [
+        "200 g kıyma",
+        "400 g kültür mantarı",
+        "1 adet kuru soğan",
+        "2 adet sivri biber",
+        "2 adet domates",
+        "1 tatlı kaşığı domates salçası",
+        "3 yemek kaşığı zeytinyağı",
+        "1 çay kaşığı tuz",
+        "1/2 çay kaşığı karabiber",
+        "1 çay kaşığı pul biber",
+        "1/2 çay kaşığı kekik"
+      ],
+      "steps": [
+        "Mantarları dilimleyin; soğanı, biberi ve domatesi ince doğrayın.",
+        "Geniş tavada zeytinyağında soğanı 2 dakika kavurun, kıymayı ekleyip suyunu çekene kadar kavurun.",
+        "Mantarları ekleyin, yüksek ateşte suyunu salıp çekene kadar 6-7 dakika soteleyin.",
+        "Biberleri ve salçayı ekleyip 2 dakika çevirin.",
+        "Domatesleri, tuzu ve baharatları ekleyip domatesler yumuşayana kadar 4-5 dakika pişirin."
+      ],
+      "tip": "Pilav ya da makarnanın üstüne çok yakışır; sarımsaklı yoğurt da eklenebilir."
+    },
+    {
+      "id": "izmir-kofte",
+      "name": "İzmir Köfte",
+      "category": "et",
+      "time": 60,
+      "servings": 4,
+      "summary": "Köfte, patates, biber ve domatesin salçalı sosla fırında piştiği sevilen ev yemeği.",
+      "image": "izmir-kofte.svg",
+      "main": [
+        "kiyma",
+        "patates",
+        "biber",
+        "domates"
+      ],
+      "ingredients": [
+        "400 g kıyma",
+        "1 adet kuru soğan (rendelenmiş)",
+        "2 yemek kaşığı galeta unu ya da 1 dilim bayat ekmek içi",
+        "1 tatlı kaşığı tuz",
+        "1/2 çay kaşığı karabiber",
+        "1 çay kaşığı kimyon",
+        "3 adet patates",
+        "3 adet sivri biber",
+        "2 adet domates",
+        "1 yemek kaşığı domates salçası",
+        "4 yemek kaşığı zeytinyağı",
+        "1,5 su bardağı sıcak su"
+      ],
+      "steps": [
+        "Fırını 200 °C'ye ısıtın. Kıymayı soğan, galeta unu, tuz, karabiber ve kimyonla 5 dakika yoğurun, parmak şeklinde köfteler yapın.",
+        "Patatesleri elma dilimi doğrayın, 2 yemek kaşığı zeytinyağında ya da fırında 10 dakika hafif kızartın.",
+        "Köfteleri tavada 2 yemek kaşığı zeytinyağında her yüzü renk alana kadar mühürleyin.",
+        "Fırın kabına köfte ve patatesleri sırayla dizin; aralarına biberleri ve dilim domatesleri yerleştirin.",
+        "Salçayı sıcak suda eritip biraz tuz ekleyin, kabın üzerine dökün.",
+        "Fırında sos koyulaşıp patatesler yumuşayana kadar 30-35 dakika pişirin."
+      ],
+      "tip": "Köfte harcını yarım saat buzdolabında dinlendirirseniz şekli daha iyi tutar."
+    },
+    {
+      "id": "mantarli-tavuk-sote",
+      "name": "Mantarlı Tavuk Sote",
+      "category": "tavuk",
+      "time": 35,
+      "servings": 4,
+      "summary": "Tavuk göğsü, mantar, biber ve domatesin zeytinyağında sotelendiği hızlı tencere yemeği.",
+      "image": "mantarli-tavuk-sote.svg",
+      "main": [
+        "tavuk",
+        "mantar",
+        "biber",
+        "domates"
+      ],
+      "ingredients": [
+        "2 adet tavuk göğsü (yaklaşık 500 g)",
+        "250 g kültür mantarı",
+        "1 adet kuru soğan",
+        "2 adet sivri biber",
+        "1 adet kapya biber",
+        "2 adet domates",
+        "1 yemek kaşığı domates salçası",
+        "3 yemek kaşığı zeytinyağı",
+        "1 tatlı kaşığı tuz",
+        "1/2 çay kaşığı karabiber",
+        "1 çay kaşığı kırmızı toz biber",
+        "1/2 çay kaşığı kekik",
+        "1/2 su bardağı sıcak su"
+      ],
+      "steps": [
+        "Tavuğu kuşbaşı, mantarları dörde, soğanı, biberleri ve domatesleri ince doğrayın.",
+        "Zeytinyağında tavukları yüksek ateşte suyunu çekip hafif kızarana kadar 6-7 dakika soteleyin.",
+        "Soğanı ekleyip 3 dakika, mantarları ekleyip suyunu çekene kadar 5 dakika soteleyin.",
+        "Biberleri ve salçayı ekleyip 2 dakika çevirin.",
+        "Domatesleri, tuzu, baharatları ve sıcak suyu ekleyin; kapağı kapalı 10 dakika pişirin."
+      ],
+      "tip": "Pilav ya da bulgurla servis edin."
+    },
+    {
+      "id": "mantar-corbasi",
+      "name": "Mantar Çorbası",
+      "category": "corba",
+      "time": 30,
+      "servings": 4,
+      "summary": "Zeytinyağında sotelenmiş mantarla sütlü, kremamsı çorba.",
+      "image": "mantar-corbasi.svg",
+      "main": [
+        "mantar",
+        "sut"
+      ],
+      "ingredients": [
+        "400 g kültür mantarı",
+        "1 adet kuru soğan",
+        "2 yemek kaşığı un",
+        "3 yemek kaşığı zeytinyağı",
+        "2 su bardağı süt",
+        "3 su bardağı sıcak su (ya da tavuk suyu)",
+        "1 tatlı kaşığı tuz",
+        "1/2 çay kaşığı karabiber",
+        "1/2 çay kaşığı kekik"
+      ],
+      "steps": [
+        "Mantarları küçük doğrayın, soğanı ince doğrayın.",
+        "Zeytinyağında soğanı 3 dakika kavurun, mantarları ekleyip suyunu çekene kadar 6-7 dakika soteleyin.",
+        "Unu ekleyip 1-2 dakika kavurun.",
+        "Sıcak suyu azar azar karıştırarak ekleyin, kaynayınca 10 dakika pişirin.",
+        "Sütü yavaşça ekleyin, tuz ve karabiberi katıp karıştırarak 5 dakika daha pişirin. Üstüne kekik serpin."
+      ],
+      "tip": "Daha pürüzsüz isterseniz mantarın yarısını blenderdan geçirin."
+    },
+    {
+      "id": "domates-corbasi",
+      "name": "Domates Çorbası",
+      "category": "corba",
+      "time": 30,
+      "servings": 4,
+      "summary": "Taze domatesle yapılan, üstüne rendelenmiş kaşar serpilen sütlü çorba.",
+      "image": "domates-corbasi.svg",
+      "main": [
+        "domates",
+        "sut"
+      ],
+      "ingredients": [
+        "5 adet olgun domates",
+        "1 yemek kaşığı domates salçası",
+        "2 yemek kaşığı un",
+        "3 yemek kaşığı zeytinyağı",
+        "1 su bardağı süt",
+        "3 su bardağı sıcak su",
+        "1 tatlı kaşığı tuz",
+        "1/2 çay kaşığı karabiber",
+        "Üstü için: rendelenmiş kaşar (isteğe bağlı)"
+      ],
+      "steps": [
+        "Domatesleri rendeleyin, kabuklarını atın.",
+        "Zeytinyağında unu kısık ateşte 2 dakika kavurun, salçayı ekleyip 1 dakika çevirin.",
+        "Rendelenmiş domatesleri ekleyip 5 dakika pişirin.",
+        "Sıcak suyu karıştırarak ekleyin, kaynayınca kısık ateşte 10 dakika pişirin.",
+        "Sütü yavaşça ekleyin, tuz ve karabiberi katıp 5 dakika daha kaynatın. İsterseniz blenderdan geçirin, kaşarla servis edin."
+      ],
+      "tip": "Domatesler mevsiminde değilse 1 yemek kaşığı daha salça ekleyin."
+    },
+    {
+      "id": "sebzeli-omlet",
+      "name": "Mantarlı Sebzeli Omlet",
+      "category": "pratik",
+      "time": 15,
+      "servings": 2,
+      "summary": "Zeytinyağında sotelenmiş mantar, biber ve domatesli, kaşarlı tava omlet.",
+      "image": "sebzeli-omlet.svg",
+      "main": [
+        "yumurta",
+        "mantar",
+        "biber",
+        "domates"
+      ],
+      "ingredients": [
+        "4 adet yumurta",
+        "100 g kültür mantarı",
+        "1 adet sivri biber",
+        "1 adet domates",
+        "2 yemek kaşığı zeytinyağı",
+        "1/2 çay kaşığı tuz",
+        "1/4 çay kaşığı karabiber",
+        "1/2 çay kaşığı pul biber",
+        "Üstü için: rendelenmiş kaşar (isteğe bağlı)"
+      ],
+      "steps": [
+        "Mantarları dilimleyin, biberi ve domatesi küçük doğrayın.",
+        "Tavada zeytinyağında mantarları suyunu çekene kadar 4 dakika soteleyin, biberi ekleyip 2 dakika daha çevirin.",
+        "Domatesi ekleyip 2 dakika pişirin.",
+        "Yumurtaları tuz ve karabiberle çırpıp tavaya dökün; kısık ateşte kapağı kapalı 4-5 dakika pişirin.",
+        "İsterseniz kaşar serpip eriyene kadar bekleyin, pul biberle servis edin."
+      ],
+      "tip": "Kısık ateş ve kapak omletin altı yanmadan üstünün pişmesini sağlar."
     }
   ]
 }

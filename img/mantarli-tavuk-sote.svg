@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800">
+  <defs>
+    <g id="mantar" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <path d="M-30 2C-30 -22 -16 -30 0 -30S30 -22 30 2z" fill="#E7D3B0"/>
+      <rect x="-9" y="0" width="18" height="24" rx="6" fill="#F4E9D2"/>
+      <path d="M-18 -4C-12 -16 12 -16 18 -4" fill="none" stroke="#C9A779" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <g id="et" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <rect x="-26" y="-22" width="52" height="44" rx="14" fill="#8C4A2C"/>
+      <path d="M-14 -10h20" stroke="#B36A42" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <g id="kiyma" fill="#8A4A2B" stroke="#3B3A30" stroke-width="3">
+      <circle r="8"/><circle cx="13" cy="5" r="6"/><circle cx="-10" cy="8" r="6"/>
+    </g>
+    <g id="kofte" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <rect x="-40" y="-17" width="80" height="34" rx="17" fill="#8C4A2C"/>
+      <path d="M-24 -6h30" stroke="#B36A42" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <g id="patates" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <rect x="-28" y="-25" width="56" height="50" rx="14" fill="#F4D27A"/>
+      <path d="M-16 -11h18" stroke="#FBE6A8" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <g id="kabak" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <path d="M-28 4A28 28 0 0 1 28 4z" fill="#DCE8A6"/>
+      <path d="M-22 0A22 22 0 0 1 22 0" fill="none" stroke="#7FA650" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <g id="patlican" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <rect x="-26" y="-24" width="52" height="48" rx="13" fill="#E7C98A"/>
+      <path d="M-22 -15v30" stroke="#5B3A6E" stroke-width="9" stroke-linecap="round"/>
+    </g>
+    <g id="tavuk" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <rect x="-24" y="-20" width="48" height="40" rx="13" fill="#EBC79A"/>
+      <path d="M-12 -8h16" stroke="#F6E2C4" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <rect id="biber" x="-18" y="-7" width="36" height="14" rx="7" fill="#6FA046" stroke="#3B3A30" stroke-width="5"/>
+    <rect id="kbiber" x="-18" y="-7" width="36" height="14" rx="7" fill="#D9473A" stroke="#3B3A30" stroke-width="5"/>
+    <circle id="domates" r="14" fill="#D8452E" stroke="#3B3A30" stroke-width="5"/>
+  </defs>
+  <rect width="800" height="800" fill="#ECE8D3"/>
+  <g fill="#DEDABF"><circle cx="90" cy="110" r="10"/><circle cx="700" cy="90" r="10"/><circle cx="730" cy="650" r="10"/><circle cx="80" cy="690" r="10"/><circle cx="400" cy="60" r="10"/><circle cx="60" cy="400" r="10"/><circle cx="745" cy="380" r="10"/><circle cx="410" cy="748" r="10"/></g>
+  <circle cx="400" cy="394" r="290" fill="#00000014"/>
+  <circle cx="400" cy="380" r="290" fill="#FFFDF6" stroke="#3B3A30" stroke-width="7"/>
+  <circle cx="400" cy="380" r="218" fill="#F3EEDD"/>
+  <path d="M400 178c118 0 208 86 204 200s-92 206-208 204-204-92-198-208 90-196 202-196z" fill="#D9662F"/>
+  <path d="M400 206c98 0 176 74 174 172s-80 176-178 174-172-80-168-178 78-168 172-168z" fill="#E77C42"/>
+  <use xlink:href="#tavuk" transform="translate(372 436) rotate(-34)"/>
+  <use xlink:href="#tavuk" transform="translate(505 431) rotate(6)"/>
+  <use xlink:href="#tavuk" transform="translate(268 304) rotate(-13)"/>
+  <use xlink:href="#tavuk" transform="translate(444 400) rotate(14)"/>
+  <use xlink:href="#tavuk" transform="translate(520 339) rotate(34)"/>
+  <use xlink:href="#tavuk" transform="translate(274 476) rotate(-35)"/>
+  <use xlink:href="#tavuk" transform="translate(345 360) rotate(13)"/>
+  <use xlink:href="#mantar" transform="translate(350 511) rotate(-17)"/>
+  <use xlink:href="#mantar" transform="translate(373 267) rotate(39)"/>
+  <use xlink:href="#mantar" transform="translate(435 503) rotate(14)"/>
+  <use xlink:href="#mantar" transform="translate(262 383) rotate(-32)"/>
+  <use xlink:href="#mantar" transform="translate(481 253) rotate(20)"/>
+  <use xlink:href="#mantar" transform="translate(443 318) rotate(-14)"/>
+  <use xlink:href="#biber" transform="translate(569 374) rotate(9)"/>
+  <use xlink:href="#biber" transform="translate(541 286) rotate(17)"/>
+  <use xlink:href="#biber" transform="translate(308 427) rotate(23)"/>
+  <use xlink:href="#biber" transform="translate(519 497) rotate(-14)"/>
+  <use xlink:href="#kbiber" transform="translate(324 303) rotate(8)"/>
+  <use xlink:href="#kbiber" transform="translate(297 255) rotate(-29)"/>
+  <use xlink:href="#kbiber" transform="translate(559 423) rotate(-20)"/>
+  <use xlink:href="#domates" transform="translate(384 553) rotate(33)"/>
+  <use xlink:href="#domates" transform="translate(479 536) rotate(-7)"/>
+  <use xlink:href="#domates" transform="translate(393 210) rotate(1)"/>
+  <use xlink:href="#domates" transform="translate(399 367) rotate(-9)"/>
+  <g fill="#6FA046"><circle cx="249" cy="359" r="4"/><circle cx="489" cy="358" r="4"/><circle cx="414" cy="238" r="4"/><circle cx="370" cy="332" r="4"/><circle cx="504" cy="398" r="4"/><circle cx="398" cy="295" r="4"/><circle cx="304" cy="379" r="4"/><circle cx="494" cy="244" r="4"/><circle cx="262" cy="478" r="4"/><circle cx="542" cy="438" r="4"/></g>
+  <path d="M176 300a236 236 0 0 1 90-128" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" opacity=".9"/>
+</svg>
