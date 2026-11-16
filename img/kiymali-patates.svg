@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800">
+  <defs>
+    <g id="pat" stroke="#3B3A30" stroke-width="6" stroke-linejoin="round">
+      <rect x="-34" y="-30" width="68" height="60" rx="16" fill="#F4D27A"/>
+      <path d="M-20 -14h22" stroke="#FBE6A8" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <g id="kiy" fill="#8A4A2B" stroke="#3B3A30" stroke-width="3">
+      <circle r="8"/><circle cx="13" cy="5" r="6"/><circle cx="-10" cy="8" r="6"/>
+    </g>
+  </defs>
+  <rect width="800" height="800" fill="#EFE3CC"/>
+  <g fill="#E2D2B4">
+    <circle cx="90" cy="110" r="10"/><circle cx="700" cy="90" r="10"/><circle cx="730" cy="640" r="10"/>
+    <circle cx="80" cy="690" r="10"/><circle cx="400" cy="60" r="10"/><circle cx="745" cy="370" r="10"/>
+  </g>
+  <circle cx="400" cy="394" r="290" fill="#00000014"/>
+  <circle cx="400" cy="380" r="290" fill="#FFFDF6" stroke="#3B3A30" stroke-width="7"/>
+  <circle cx="400" cy="380" r="218" fill="#F3EEDD"/>
+  <path d="M400 178c118 0 208 86 204 200s-92 206-208 204-204-92-198-208 90-196 202-196z" fill="#D8622F"/>
+  <path d="M400 206c98 0 176 74 174 172s-80 176-178 174-172-80-168-178 78-168 172-168z" fill="#E8743B"/>
+  <use xlink:href="#pat" transform="translate(320 290) rotate(-12)"/>
+  <use xlink:href="#pat" transform="translate(470 280) rotate(10)"/>
+  <use xlink:href="#pat" transform="translate(260 400) rotate(6)"/>
+  <use xlink:href="#pat" transform="translate(400 380) rotate(-4)"/>
+  <use xlink:href="#pat" transform="translate(530 400) rotate(18)"/>
+  <use xlink:href="#pat" transform="translate(330 500) rotate(-16)"/>
+  <use xlink:href="#pat" transform="translate(470 500) rotate(8)"/>
+  <use xlink:href="#kiy" transform="translate(390 300)"/>
+  <use xlink:href="#kiy" transform="translate(330 360) rotate(40)"/>
+  <use xlink:href="#kiy" transform="translate(470 340) rotate(-60)"/>
+  <use xlink:href="#kiy" transform="translate(560 330)"/>
+  <use xlink:href="#kiy" transform="translate(240 470) rotate(90)"/>
+  <use xlink:href="#kiy" transform="translate(400 450) rotate(20)"/>
+  <use xlink:href="#kiy" transform="translate(540 470) rotate(-30)"/>
+  <use xlink:href="#kiy" transform="translate(400 560) rotate(70)"/>
+  <use xlink:href="#kiy" transform="translate(280 320) rotate(-20)"/>
+  <g stroke="#3B3A30" stroke-width="5">
+    <rect x="370" y="236" width="34" height="14" rx="7" fill="#6FA046" transform="rotate(10 387 243)"/>
+    <rect x="520" y="540" width="34" height="14" rx="7" fill="#6FA046" transform="rotate(-30 537 547)"/>
+    <rect x="260" y="550" width="34" height="14" rx="7" fill="#6FA046" transform="rotate(24 277 557)"/>
+    <circle cx="560" cy="270" r="12" fill="#D8452E"/><circle cx="236" cy="320" r="12" fill="#D8452E"/><circle cx="590" cy="460" r="11" fill="#D8452E"/>
+  </g>
+  <path d="M176 300a236 236 0 0 1 90-128" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" opacity=".9"/>
+</svg>

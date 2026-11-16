@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <rect id="p" x="-11" y="-5" width="22" height="10" rx="5" fill="#FFFFFF" stroke="#D9D2BC" stroke-width="2"/>
+    <rect id="s" x="-10" y="-4.5" width="20" height="9" rx="4.5" fill="#C27A3C" stroke="#3B3A30" stroke-width="2.5"/>
+  </defs>
+  <rect width="800" height="800" fill="#E3E8EE"/>
+  <g fill="#D3DAE2">
+    <circle cx="90" cy="110" r="10"/><circle cx="700" cy="90" r="10"/><circle cx="730" cy="640" r="10"/>
+    <circle cx="80" cy="690" r="10"/><circle cx="400" cy="60" r="10"/><circle cx="745" cy="370" r="10"/>
+  </g>
+  <circle cx="400" cy="394" r="290" fill="#00000014"/>
+  <circle cx="400" cy="380" r="290" fill="#FFFDF6" stroke="#3B3A30" stroke-width="7"/>
+  <circle cx="400" cy="380" r="236" fill="none" stroke="#7FA6C9" stroke-width="10"/>
+  <!-- pilav tepesi -->
+  <path d="M400 196c110 0 196 80 192 186s-88 190-196 188-190-86-186-192 82-182 190-182z" fill="#F6F1E1" stroke="#3B3A30" stroke-width="6"/>
+  <path d="M400 236c80 0 140 56 138 136s-64 140-142 138-138-62-134-140 60-134 138-134z" fill="#FBF8EC"/>
+  <g id="taneler">
+    <use href="#p" transform="translate(300 280) rotate(20)"/><use href="#p" transform="translate(360 250) rotate(-30)"/>
+    <use href="#p" transform="translate(430 260) rotate(60)"/><use href="#p" transform="translate(500 290) rotate(-10)"/>
+    <use href="#p" transform="translate(260 340) rotate(80)"/><use href="#p" transform="translate(330 330) rotate(-50)"/>
+    <use href="#p" transform="translate(400 320) rotate(10)"/><use href="#p" transform="translate(470 340) rotate(40)"/>
+    <use href="#p" transform="translate(540 350) rotate(-70)"/><use href="#p" transform="translate(240 410) rotate(30)"/>
+    <use href="#p" transform="translate(310 400) rotate(-20)"/><use href="#p" transform="translate(380 390) rotate(70)"/>
+    <use href="#p" transform="translate(450 410) rotate(-40)"/><use href="#p" transform="translate(520 420) rotate(15)"/>
+    <use href="#p" transform="translate(570 430) rotate(55)"/><use href="#p" transform="translate(270 480) rotate(-60)"/>
+    <use href="#p" transform="translate(340 470) rotate(25)"/><use href="#p" transform="translate(410 470) rotate(-15)"/>
+    <use href="#p" transform="translate(480 480) rotate(65)"/><use href="#p" transform="translate(540 500) rotate(-35)"/>
+    <use href="#p" transform="translate(320 540) rotate(45)"/><use href="#p" transform="translate(400 540) rotate(-5)"/>
+    <use href="#p" transform="translate(470 540) rotate(35)"/><use href="#p" transform="translate(430 220) rotate(-20)"/>
+  </g>
+  <use href="#taneler" transform="rotate(90 400 390)"/>
+  <use href="#taneler" transform="rotate(200 400 390) translate(10 0)"/>
+  <g>
+    <use href="#s" transform="translate(330 290) rotate(-40)"/><use href="#s" transform="translate(460 300) rotate(20)"/>
+    <use href="#s" transform="translate(290 380) rotate(50)"/><use href="#s" transform="translate(420 360) rotate(-10)"/>
+    <use href="#s" transform="translate(500 380) rotate(70)"/><use href="#s" transform="translate(350 440) rotate(15)"/>
+    <use href="#s" transform="translate(450 450) rotate(-55)"/><use href="#s" transform="translate(300 510) rotate(-20)"/>
+    <use href="#s" transform="translate(510 470) rotate(30)"/><use href="#s" transform="translate(380 510) rotate(80)"/>
+    <use href="#s" transform="translate(400 270) rotate(5)"/><use href="#s" transform="translate(560 400) rotate(-25)"/>
+  </g>
+  <!-- maydanoz -->
+  <g fill="#6FA046" stroke="#3B3A30" stroke-width="4">
+    <circle cx="560" cy="250" r="16"/><circle cx="584" cy="270" r="14"/><circle cx="566" cy="284" r="13"/>
+  </g>
+  <path d="M176 300a236 236 0 0 1 90-128" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" opacity=".9"/>
+</svg>

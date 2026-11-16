@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#F3E2CC"/>
+  <g fill="#E6CFB2">
+    <circle cx="90" cy="110" r="10"/><circle cx="700" cy="90" r="10"/><circle cx="730" cy="640" r="10"/>
+    <circle cx="80" cy="690" r="10"/><circle cx="400" cy="60" r="10"/><circle cx="60" cy="400" r="10"/>
+  </g>
+  <!-- altlık tabak ve kase -->
+  <circle cx="400" cy="414" r="300" fill="#00000012"/>
+  <circle cx="400" cy="400" r="300" fill="#FFFDF6" stroke="#3B3A30" stroke-width="7"/>
+  <circle cx="400" cy="400" r="232" fill="#00000014" transform="translate(0 10)"/>
+  <circle cx="400" cy="400" r="232" fill="#D96B3A" stroke="#3B3A30" stroke-width="7"/>
+  <circle cx="400" cy="400" r="196" fill="#FFFDF6" stroke="#3B3A30" stroke-width="5"/>
+  <!-- çorba -->
+  <circle cx="400" cy="404" r="180" fill="#E3672E"/>
+  <path d="M400 236c90 0 156 70 154 160s-70 156-158 156-154-70-150-160 68-156 154-156z" fill="#EC7A3C"/>
+  <!-- tanecikler -->
+  <g fill="#F49A5C">
+    <circle cx="320" cy="320" r="6"/><circle cx="470" cy="300" r="6"/><circle cx="500" cy="450" r="6"/><circle cx="300" cy="460" r="6"/>
+    <circle cx="380" cy="500" r="5"/><circle cx="540" cy="380" r="5"/><circle cx="260" cy="380" r="5"/><circle cx="430" cy="360" r="5"/>
+  </g>
+  <!-- naneli kırmızı yağ -->
+  <path d="M310 360c30-40 110-50 150-10s20 90-40 100-90-30-70-60 60-30 70-6" fill="none" stroke="#B8321F" stroke-width="12" stroke-linecap="round" opacity=".85"/>
+  <g fill="#5E8F3A">
+    <circle cx="350" cy="340" r="5"/><circle cx="430" cy="330" r="5"/><circle cx="460" cy="400" r="5"/><circle cx="400" cy="440" r="5"/>
+    <circle cx="330" cy="420" r="5"/><circle cx="500" cy="340" r="4"/><circle cx="280" cy="350" r="4"/><circle cx="420" cy="500" r="4"/>
+  </g>
+  <g fill="#A3261A">
+    <circle cx="370" cy="380" r="3.5"/><circle cx="450" cy="440" r="3.5"/><circle cx="310" cy="400" r="3.5"/><circle cx="480" cy="370" r="3.5"/><circle cx="390" cy="300" r="3.5"/>
+  </g>
+  <!-- limon dilimi -->
+  <g transform="translate(640 640) rotate(-30)" stroke="#3B3A30" stroke-width="6" stroke-linejoin="round">
+    <path d="M-70 0A70 70 0 0 1 70 0z" fill="#F6D44C"/>
+    <path d="M-56 -4A56 56 0 0 1 56 -4z" fill="#FBEA8C" stroke-width="4"/>
+    <path d="M0 -4L-38 -40M0 -4V-54M0 -4L38 -40" stroke="#F6D44C" stroke-width="5"/>
+  </g>
+  <path d="M204 330a200 200 0 0 1 76-108" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round" opacity=".9"/>
+</svg>

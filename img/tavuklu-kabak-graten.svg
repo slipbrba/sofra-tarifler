@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800">
+  <defs>
+    <g id="kab" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <path d="M-30 4A30 30 0 0 1 30 4z" fill="#DCE8A6"/>
+      <path d="M-24 0A24 24 0 0 1 24 0" fill="none" stroke="#7FA650" stroke-width="7" stroke-linecap="round"/>
+      <g fill="#C9D98A" stroke="none"><circle cx="-8" cy="-8" r="3"/><circle cx="8" cy="-8" r="3"/></g>
+    </g>
+    <g id="tav" stroke="#3B3A30" stroke-width="5" stroke-linejoin="round">
+      <rect x="-18" y="-15" width="36" height="30" rx="10" fill="#F1D9B5"/>
+      <path d="M-8 -6h14" stroke="#D9A86A" stroke-width="5" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <rect width="800" height="800" fill="#F1E6D2"/>
+  <g fill="#E5D6BC">
+    <circle cx="90" cy="100" r="10"/><circle cx="706" cy="88" r="10"/><circle cx="728" cy="690" r="10"/>
+    <circle cx="74" cy="696" r="10"/><circle cx="400" cy="54" r="10"/><circle cx="400" cy="748" r="10"/>
+  </g>
+  <!-- fırın kabı -->
+  <ellipse cx="400" cy="412" rx="318" ry="244" fill="#00000014"/>
+  <g stroke="#3B3A30" stroke-width="7" stroke-linejoin="round">
+    <ellipse cx="78" cy="400" rx="40" ry="62" fill="#3F7FAE"/>
+    <ellipse cx="722" cy="400" rx="40" ry="62" fill="#3F7FAE"/>
+    <ellipse cx="400" cy="400" rx="318" ry="244" fill="#3F7FAE"/>
+    <ellipse cx="400" cy="400" rx="282" ry="210" fill="#FFFDF6" stroke-width="6"/>
+  </g>
+  <!-- gratenlenmiş üst -->
+  <ellipse cx="400" cy="400" rx="268" ry="196" fill="#EFC56A"/>
+  <path d="M190 360c40-90 150-130 250-122s160 50 180 120c10 80-60 150-200 156s-250-60-230-154z" fill="#F6D98C"/>
+  <g fill="#C98736">
+    <ellipse cx="260" cy="330" rx="26" ry="14" transform="rotate(-20 260 330)"/>
+    <ellipse cx="470" cy="290" rx="30" ry="15"/>
+    <ellipse cx="560" cy="420" rx="22" ry="13" transform="rotate(30 560 420)"/>
+    <ellipse cx="330" cy="500" rx="28" ry="14" transform="rotate(12 330 500)"/>
+    <ellipse cx="420" cy="410" rx="18" ry="10"/>
+    <circle cx="610" cy="350" r="9"/><circle cx="200" cy="430" r="9"/><circle cx="480" cy="520" r="10"/><circle cx="360" cy="260" r="8"/>
+  </g>
+  <g fill="#DFA24A">
+    <circle cx="300" cy="400" r="16"/><circle cx="520" cy="360" r="14"/><circle cx="430" cy="480" r="13"/><circle cx="380" cy="320" r="11"/>
+  </g>
+  <!-- kabak ve tavuk görünen yerler -->
+  <use xlink:href="#kab" transform="translate(250 380) rotate(-10)"/>
+  <use xlink:href="#kab" transform="translate(400 280) rotate(8)"/>
+  <use xlink:href="#kab" transform="translate(560 300) rotate(20)"/>
+  <use xlink:href="#kab" transform="translate(500 460) rotate(-14)"/>
+  <use xlink:href="#kab" transform="translate(300 480) rotate(6)"/>
+  <use xlink:href="#kab" transform="translate(610 430) rotate(-28)"/>
+  <use xlink:href="#tav" transform="translate(350 380) rotate(14)"/>
+  <use xlink:href="#tav" transform="translate(480 380) rotate(-12)"/>
+  <use xlink:href="#tav" transform="translate(220 300) rotate(-24)"/>
+  <use xlink:href="#tav" transform="translate(400 530) rotate(18)"/>
+  <!-- kekik -->
+  <g fill="#6FA046">
+    <circle cx="330" cy="430" r="4"/><circle cx="440" cy="330" r="4"/><circle cx="540" cy="410" r="4"/><circle cx="280" cy="350" r="4"/>
+    <circle cx="460" cy="500" r="4"/><circle cx="590" cy="370" r="4"/><circle cx="370" cy="470" r="4"/><circle cx="240" cy="440" r="4"/>
+  </g>
+  <path d="M150 330a280 210 0 0 1 120-118" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" opacity=".85"/>
+</svg>

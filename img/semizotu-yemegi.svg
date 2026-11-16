@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800">
+  <defs>
+    <g id="dal" stroke="#3B3A30" stroke-width="4" stroke-linejoin="round">
+      <path d="M-34 0C-12 -4 12 4 34 0" fill="none" stroke="#B5574A" stroke-width="7" stroke-linecap="round"/>
+      <ellipse cx="-22" cy="-13" rx="11" ry="15" fill="#7DB04E" transform="rotate(-30 -22 -13)"/>
+      <ellipse cx="0" cy="14" rx="11" ry="15" fill="#8CBF5A" transform="rotate(20 0 14)"/>
+      <ellipse cx="20" cy="-14" rx="11" ry="15" fill="#7DB04E" transform="rotate(25 20 -14)"/>
+      <ellipse cx="38" cy="4" rx="10" ry="13" fill="#8CBF5A" transform="rotate(80 38 4)"/>
+    </g>
+  </defs>
+  <rect width="800" height="800" fill="#E6EAD2"/>
+  <g fill="#D7DDBE">
+    <circle cx="90" cy="110" r="10"/><circle cx="700" cy="90" r="10"/><circle cx="80" cy="690" r="10"/>
+    <circle cx="400" cy="60" r="10"/><circle cx="60" cy="400" r="10"/><circle cx="420" cy="750" r="10"/>
+  </g>
+  <!-- tabak -->
+  <circle cx="370" cy="404" r="270" fill="#00000014"/>
+  <circle cx="370" cy="390" r="270" fill="#FFFDF6" stroke="#3B3A30" stroke-width="7"/>
+  <circle cx="370" cy="390" r="202" fill="#F3EEDD"/>
+  <path d="M370 204c108 0 190 80 186 186s-84 188-190 186-188-84-182-190 80-182 186-182z" fill="#E8743B"/>
+  <path d="M370 232c90 0 160 68 158 158s-72 160-162 158-158-72-154-162 70-154 158-154z" fill="#F08A4B"/>
+  <!-- semizotu dalları -->
+  <use xlink:href="#dal" transform="translate(300 300) rotate(-20)"/>
+  <use xlink:href="#dal" transform="translate(430 290) rotate(30)"/>
+  <use xlink:href="#dal" transform="translate(260 410) rotate(60)"/>
+  <use xlink:href="#dal" transform="translate(380 390) rotate(-5)"/>
+  <use xlink:href="#dal" transform="translate(480 400) rotate(-50)"/>
+  <use xlink:href="#dal" transform="translate(320 500) rotate(15)"/>
+  <use xlink:href="#dal" transform="translate(440 500) rotate(-30)"/>
+  <!-- domates, pirinç -->
+  <g stroke="#3B3A30" stroke-width="5" fill="#D8452E">
+    <circle cx="360" cy="260" r="12"/><circle cx="520" cy="340" r="12"/><circle cx="240" cy="340" r="11"/><circle cx="390" cy="560" r="12"/><circle cx="380" cy="450" r="10"/>
+  </g>
+  <g fill="#FFFDF6">
+    <rect x="320" y="340" width="20" height="9" rx="4.5" transform="rotate(30 330 344)"/>
+    <rect x="470" y="460" width="20" height="9" rx="4.5" transform="rotate(-40 480 464)"/>
+    <rect x="230" y="470" width="20" height="9" rx="4.5" transform="rotate(70 240 474)"/>
+    <rect x="500" y="250" width="20" height="9" rx="4.5" transform="rotate(-10 510 254)"/>
+    <rect x="420" y="340" width="20" height="9" rx="4.5" transform="rotate(50 430 344)"/>
+  </g>
+  <!-- sarımsaklı yoğurt kasesi -->
+  <circle cx="640" cy="626" r="98" fill="#00000014" transform="translate(0 10)"/>
+  <circle cx="640" cy="626" r="98" fill="#A9C7D9" stroke="#3B3A30" stroke-width="7"/>
+  <path d="M640 548c46 0 80 34 78 78s-36 78-80 78-78-36-76-80 32-76 78-76z" fill="#FFFFFF" stroke="#3B3A30" stroke-width="5"/>
+  <path d="M606 604c18-14 50-14 66 2" fill="none" stroke="#E6E3D6" stroke-width="8" stroke-linecap="round"/>
+  <g fill="#6FA046"><circle cx="620" cy="640" r="4"/><circle cx="660" cy="620" r="4"/><circle cx="650" cy="660" r="4"/></g>
+  <path d="M146 300a226 226 0 0 1 84-120" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" opacity=".9"/>
+</svg>

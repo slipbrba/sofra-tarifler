@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "recipes": [
     {
       "id": "kabak-yemegi",
@@ -725,6 +725,192 @@
         "Her yüzünü 3-4 dakika kızarana kadar pişirin, kağıt havluya alın. Kalan harcı aynı şekilde, gerektikçe zeytinyağı ekleyerek pişirin."
       ],
       "tip": "Peynir kullanıyorsanız harca ekstra tuz eklemeyin. Sarımsaklı yoğurtla servis edin."
+    },
+    {
+      "id": "tavuklu-kabak-graten",
+      "name": "Tavuklu Kabak Graten",
+      "category": "tavuk",
+      "time": 60,
+      "servings": 4,
+      "summary": "Zeytinyağında sotelenmiş tavuk ve kabak, zeytinyağlı beşamel ve kaşarla fırında kızarır.",
+      "image": "tavuklu-kabak-graten.svg",
+      "ingredients": [
+        "2 adet tavuk göğsü (yaklaşık 500 g)",
+        "3 adet kabak",
+        "1 adet kuru soğan",
+        "2 adet sivri biber",
+        "2 diş sarımsak",
+        "2 yemek kaşığı zeytinyağı (sote için)",
+        "1 tatlı kaşığı tuz",
+        "1/2 çay kaşığı karabiber",
+        "1 çay kaşığı kırmızı toz biber",
+        "1/2 çay kaşığı kekik",
+        "Beşamel için: 3 yemek kaşığı zeytinyağı",
+        "Beşamel için: 3 yemek kaşığı un",
+        "Beşamel için: 3 su bardağı soğuk süt",
+        "Beşamel için: tuz, karabiber, bir tutam muskat (isteğe bağlı)",
+        "1,5 su bardağı rendelenmiş kaşar"
+      ],
+      "steps": [
+        "Fırını 200 °C'ye ısıtın. Tavuğu küçük küpler halinde, kabakları yarım ay şeklinde, soğan ve biberi ince doğrayın.",
+        "Geniş bir tavada 2 yemek kaşığı zeytinyağını kızdırın, tavuğu yüksek ateşte suyunu çekip hafif renk alana kadar 6-7 dakika soteleyin.",
+        "Soğanı ve biberi ekleyip 3 dakika kavurun; sarımsağı, tuzu ve baharatları ekleyip 1 dakika daha çevirin.",
+        "Kabakları ekleyip 4-5 dakika soteleyin. Kabaklar diri kalsın, fırında pişmeye devam edecek. Karışımı fırın kabına yayın.",
+        "Beşamel için tencerede 3 yemek kaşığı zeytinyağını ısıtın, unu ekleyip kısık ateşte 2 dakika kavurun. Soğuk sütü azar azar ekleyip topaklanmaması için sürekli çırpın.",
+        "Beşamel koyulaşıp kaynamaya başlayınca tuz, karabiber ve muskatı ekleyin. İçine yarım su bardağı kaşar katıp karıştırın.",
+        "Beşameli tavuklu kabakların üzerine döküp yayın, kalan kaşarı serpin.",
+        "200 °C fırında üstü kızarana kadar 20-25 dakika pişirin. Kesmeden önce 10 dakika dinlendirin."
+      ],
+      "tip": "Kabakları tavada fazla pişirirseniz suyunu salar ve graten sulanır; diri bırakmak püf noktası."
+    },
+    {
+      "id": "semizotu-yemegi",
+      "name": "Semizotu Yemeği",
+      "category": "sebze",
+      "time": 35,
+      "servings": 4,
+      "summary": "Zeytinyağında soğan, biber ve salçayla pişen az pirinçli semizotu; sarımsaklı yoğurtla.",
+      "image": "semizotu-yemegi.svg",
+      "ingredients": [
+        "1 büyük demet semizotu (yaklaşık 500 g)",
+        "1 adet kuru soğan",
+        "2 adet sivri biber",
+        "1 yemek kaşığı domates salçası",
+        "2 adet domates",
+        "2 yemek kaşığı pirinç",
+        "4 yemek kaşığı zeytinyağı",
+        "1 tatlı kaşığı tuz",
+        "1/2 çay kaşığı karabiber",
+        "1 çay kaşığı kırmızı toz biber",
+        "1 su bardağı sıcak su",
+        "Yanına: 1 kase yoğurt, 1 diş sarımsak"
+      ],
+      "steps": [
+        "Semizotunu bol suda birkaç kez yıkayın. Kalın, sert sapları ayırın; yaprakları ve ince sapları iri doğrayın.",
+        "Soğan, biber ve domatesi ince ince doğrayın. Pirinci yıkayıp süzün.",
+        "Zeytinyağında soğanı orta ateşte 3-4 dakika pembeleşene kadar kavurun, biberleri ekleyip 2 dakika daha kavurun.",
+        "Salçayı ekleyip 1 dakika kavurun, domatesleri ekleyip 2-3 dakika pişirin.",
+        "Semizotunu ekleyin, karıştırarak 2-3 dakika söndürün.",
+        "Pirinci, tuzu, karabiberi, kırmızı toz biberi ve sıcak suyu ekleyin. Kaynayınca ateşi kısın, kapağı kapalı 15 dakika pirinç yumuşayana kadar pişirin.",
+        "Yoğurdu ezilmiş sarımsakla karıştırıp yemeğin yanında ya da üstünde servis edin."
+      ],
+      "tip": "Semizotu kendi suyunu salar; suyu az koyun ve fazla pişirmeyin, yoksa lapa olur."
+    },
+    {
+      "id": "ezogelin-corbasi",
+      "name": "Ezogelin Çorbası",
+      "category": "corba",
+      "time": 40,
+      "servings": 6,
+      "summary": "Kırmızı mercimek, bulgur ve pirinçle salçalı, naneli, doyurucu çorba.",
+      "image": "ezogelin-corbasi.svg",
+      "ingredients": [
+        "1 su bardağı kırmızı mercimek",
+        "2 yemek kaşığı pirinç",
+        "2 yemek kaşığı ince bulgur",
+        "1 adet kuru soğan",
+        "1 yemek kaşığı domates salçası",
+        "3 yemek kaşığı zeytinyağı",
+        "7 su bardağı sıcak su",
+        "1 tatlı kaşığı tuz",
+        "1/2 çay kaşığı karabiber",
+        "Üstü için: 2 yemek kaşığı zeytinyağı, 1 yemek kaşığı kuru nane, 1 çay kaşığı pul biber"
+      ],
+      "steps": [
+        "Mercimeği, pirinci ve bulguru birlikte yıkayıp süzün. Soğanı ince doğrayın.",
+        "Zeytinyağında soğanı 3-4 dakika kavurun, salçayı ekleyip 1 dakika daha kavurun.",
+        "Mercimek, pirinç ve bulguru ekleyip karıştırın, sıcak suyu ilave edin.",
+        "Kaynayınca ateşi kısın, ara ara karıştırarak 25-30 dakika mercimek dağılana kadar pişirin. Gerekirse biraz sıcak su ekleyin.",
+        "Tuz ve karabiberi ekleyip 2 dakika daha kaynatın.",
+        "Küçük bir tavada zeytinyağını ısıtın, ocaktan alıp nane ve pul biberi ekleyin; çorbanın üzerine gezdirin."
+      ],
+      "tip": "Pürüzsüz isterseniz blenderdan geçirin; ama ezogelinin tanecikli hali daha geleneksel."
+    },
+    {
+      "id": "kiymali-patates",
+      "name": "Kıymalı Patates Yemeği",
+      "category": "et",
+      "time": 45,
+      "servings": 4,
+      "summary": "Zeytinyağında kavrulan kıyma ile salçalı, domatesli, küp patatesli tencere yemeği.",
+      "image": "kiymali-patates.svg",
+      "ingredients": [
+        "250 g kıyma",
+        "4 adet orta boy patates",
+        "1 adet kuru soğan",
+        "2 adet sivri biber",
+        "1 yemek kaşığı domates salçası",
+        "2 adet domates",
+        "3 yemek kaşığı zeytinyağı",
+        "1 tatlı kaşığı tuz",
+        "1/2 çay kaşığı karabiber",
+        "1 çay kaşığı kırmızı toz biber",
+        "1/2 çay kaşığı kimyon",
+        "1,5 su bardağı sıcak su"
+      ],
+      "steps": [
+        "Patatesleri küp küp doğrayıp kararmaması için suda bekletin. Soğan, biber ve domatesi ince doğrayın.",
+        "Zeytinyağında soğanı 3 dakika kavurun, kıymayı ekleyip suyunu çekene ve tane tane olana kadar kavurun.",
+        "Biberleri ekleyip 2 dakika kavurun, salçayı ekleyip 1 dakika daha çevirin.",
+        "Domatesleri ekleyip 2-3 dakika pişirin. Süzülmüş patatesleri, tuzu ve baharatları ekleyin.",
+        "Sıcak suyu ekleyin; kaynayınca ateşi kısıp kapağı kapalı 20-25 dakika patatesler yumuşayana kadar pişirin.",
+        "Ocaktan alıp 5 dakika dinlendirin."
+      ],
+      "tip": "Yanına bulgur pilavı ve cacık çok iyi gider."
+    },
+    {
+      "id": "patlican-kavurma",
+      "name": "Patlıcan Kavurma",
+      "category": "pratik",
+      "time": 30,
+      "servings": 3,
+      "summary": "Küp patlıcan, biber ve domatesin zeytinyağında tavada kavrulduğu pratik yemek; sarımsaklı yoğurtla.",
+      "image": "patlican-kavurma.svg",
+      "ingredients": [
+        "3 adet patlıcan",
+        "2 adet sivri biber",
+        "2 adet domates",
+        "1 adet kuru soğan",
+        "2 diş sarımsak",
+        "5 yemek kaşığı zeytinyağı",
+        "1 tatlı kaşığı tuz",
+        "1/2 çay kaşığı karabiber",
+        "1 çay kaşığı pul biber",
+        "Yanına: 1 kase yoğurt, 1 diş sarımsak"
+      ],
+      "steps": [
+        "Patlıcanları alacalı soyup küp doğrayın, tuzlu suda 15 dakika bekletip iyice süzün ve kurulayın.",
+        "Soğanı ve biberi ince, domatesi küp doğrayın.",
+        "Geniş tavada zeytinyağını kızdırın, patlıcanları yüksek ateşte ara ara çevirerek 8-10 dakika kızarana kadar kavurun.",
+        "Soğanı ve biberi ekleyip 3 dakika kavurun, sarımsağı ekleyip 1 dakika daha çevirin.",
+        "Domatesleri, tuzu, karabiberi ve pul biberi ekleyin; domatesler suyunu salıp çekene kadar 4-5 dakika pişirin.",
+        "Sarımsaklı yoğurtla sıcak servis edin."
+      ],
+      "tip": "Patlıcanı tavaya kalabalık koymayın; az az kavurursanız haşlanmaz, kızarır."
+    },
+    {
+      "id": "sehriyeli-pilav",
+      "name": "Şehriyeli Pirinç Pilavı",
+      "category": "pilav",
+      "time": 35,
+      "servings": 4,
+      "summary": "Zeytinyağında kavrulmuş arpa şehriye ile tane tane pirinç pilavı.",
+      "image": "sehriyeli-pilav.svg",
+      "ingredients": [
+        "2 su bardağı baldo pirinç",
+        "3 yemek kaşığı arpa şehriye",
+        "3 yemek kaşığı zeytinyağı",
+        "3 su bardağı sıcak su (ya da tavuk suyu)",
+        "1 tatlı kaşığı tuz"
+      ],
+      "steps": [
+        "Pirinci ılık tuzlu suda 20 dakika bekletin, sonra suyu berraklaşana kadar yıkayıp süzün.",
+        "Tencerede zeytinyağını ısıtın, şehriyeyi ekleyip karıştırarak kızarana kadar 2-3 dakika kavurun.",
+        "Pirinci ekleyip 3-4 dakika, taneler şeffaflaşana kadar kavurun.",
+        "Sıcak suyu ve tuzu ekleyin. Kaynayınca ateşi en kısığa alın, kapağı kapalı 15 dakika suyunu çekene kadar pişirin.",
+        "Ocaktan alıp kapakla tencerenin arasına kağıt havlu koyun, 10 dakika demlendirin, sonra karıştırın."
+      ],
+      "tip": "Kıymalı patates, kuru fasulye ya da nohut yemeğinin yanına birebir."
     }
   ]
 }
